@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Plugins/org.apache.cordova.device/CDVDevice.m \
+  /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/CDV.h \
+  /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h \
+  /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h \
+  /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h \
+  /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h \
+  /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h \
+  /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h \
+  /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/CDVViewController.h \
+  /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h \
+  /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h \
+  /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h \
+  /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h \
+  /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/CDVDebug.h \
+  /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h \
+  /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/CDVTimer.h \
+  /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h \
+  /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h \
+  /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h \
+  /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h \
+  /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/CDVJSON.h \
+  /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Plugins/org.apache.cordova.device/CDVDevice.h

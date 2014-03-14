@@ -1,0 +1,816 @@
+TAssassins
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/Info.plist /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Assassins-Info.plist
+cPhaseScriptExecution Copy\ www\ directory /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Script-304B58A110DAC018002A0835.sh
+cCpResource Assassins/Resources/icons/icon-76.png build/emulator/Assassins.app/icon-76.png
+cCpResource Assassins/Resources/icons/icon-40@2x.png build/emulator/Assassins.app/icon-40@2x.png
+cCpResource Assassins/Resources/icons/icon-72.png build/emulator/Assassins.app/icon-72.png
+cCpResource Assassins/Resources/icons/icon.png build/emulator/Assassins.app/icon.png
+cCpResource Assassins/Resources/icons/icon@2x.png build/emulator/Assassins.app/icon@2x.png
+cCopyStringsFile /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/en.lproj/Localizable.strings Assassins/Resources/en.lproj/Localizable.strings
+cCompileXIB /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Classes/MainViewController.xib
+cCpResource Assassins/Resources/icons/icon-50.png build/emulator/Assassins.app/icon-50.png
+cCpResource Assassins/Resources/icons/icon-60@2x.png build/emulator/Assassins.app/icon-60@2x.png
+cCopyStringsFile /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/de.lproj/Localizable.strings Assassins/Resources/de.lproj/Localizable.strings
+cCpResource Assassins/Resources/icons/icon-small.png build/emulator/Assassins.app/icon-small.png
+cCpResource Assassins/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/Assassins.app/Default-Landscape@2x~ipad.png
+cCpResource Assassins/Resources/splash/Default-Landscape~ipad.png build/emulator/Assassins.app/Default-Landscape~ipad.png
+cCpResource Assassins/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/Assassins.app/Default-Portrait@2x~ipad.png
+cCpResource Assassins/Resources/icons/icon-small@2x.png build/emulator/Assassins.app/icon-small@2x.png
+cCpResource Assassins/Resources/splash/Default-Portrait~ipad.png build/emulator/Assassins.app/Default-Portrait~ipad.png
+cCpResource Assassins/Resources/icons/icon-40.png build/emulator/Assassins.app/icon-40.png
+cCpResource Assassins/Resources/splash/Default@2x~iphone.png build/emulator/Assassins.app/Default@2x~iphone.png
+cCpResource Assassins/Resources/icons/icon-60.png build/emulator/Assassins.app/icon-60.png
+cCpResource Assassins/Resources/splash/Default~iphone.png build/emulator/Assassins.app/Default~iphone.png
+cCpResource Assassins/Resources/splash/Default-568h@2x~iphone.png build/emulator/Assassins.app/Default-568h@2x~iphone.png
+cCpResource Assassins/Resources/icons/icon-50@2x.png build/emulator/Assassins.app/icon-50@2x.png
+cCpResource Assassins/Resources/icons/icon-76@2x.png build/emulator/Assassins.app/icon-76@2x.png
+cCpResource Assassins/Resources/icons/icon-72@2x.png build/emulator/Assassins.app/icon-72@2x.png
+cProcessPCH /var/folders/6h/nspwrwvn4l9bl2xrrl_qgc1h0000gq/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Assassins-Prefix-czqhurjnqkyocyargqkjbgxzqbyu/Assassins-Prefix.pch.pch Assassins/Assassins-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Assassins.build/Debug-iphonesimulator/Assassins.build/Objects-normal/i386/main.o /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Assassins.build/Debug-iphonesimulator/Assassins.build/Objects-normal/i386/AppDelegate.o /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Assassins.build/Debug-iphonesimulator/Assassins.build/Objects-normal/i386/MainViewController.o /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/Assassins normal i386
+cGenerateDSYMFile /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app.dSYM /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/Assassins
+cTouch /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c00000000531FC84600000000000003B4
+t1394591814
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531FC84A000000000000019E
+t1394591818
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c00000000531FC84B0000000000059340
+t1394591819
+s365376
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000531FC84C0000000000446820
+t1394591820
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c00000000531FC84C00000000000F1A80
+t1394591820
+s989824
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c00000000531FC84D00000000001BE790
+t1394591821
+s1828752
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Assassins-Info.plist
+c000000005320D66A0000000000000A13
+t1394660970
+s2579
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Assassins-Prefix.pch
+c000000005320D61C00000000000003C3
+t1394660892
+s963
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Classes/AppDelegate.m
+c000000005320D61C00000000000013A9
+t1394660892
+s5033
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Classes/MainViewController.m
+c000000005320D61C000000000000126A
+t1394660892
+s4714
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Classes/MainViewController.xib
+c000000005320D61C0000000000001759
+t1394660892
+s5977
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/de.lproj/Localizable.strings
+c000000005320D61C00000000000004C0
+t1394660892
+s1216
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/en.lproj/Localizable.strings
+c000000005320D61C00000000000004AB
+t1394660892
+s1195
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/icons/icon-40.png
+c000000005320D61C0000000000000FF2
+t1394660892
+s4082
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/icons/icon-40@2x.png
+c000000005320D61C0000000000001CF3
+t1394660892
+s7411
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/icons/icon-50.png
+c000000005320D61C000000000000130A
+t1394660892
+s4874
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/icons/icon-50@2x.png
+c000000005320D61C000000000000258B
+t1394660892
+s9611
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/icons/icon-60.png
+c000000005320D61C00000000000016B3
+t1394660892
+s5811
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/icons/icon-60@2x.png
+c000000005320D61C0000000000002E94
+t1394660892
+s11924
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/icons/icon-72.png
+c000000005320D61C0000000000001350
+t1394660892
+s4944
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/icons/icon-72@2x.png
+c000000005320D61C0000000000002DBA
+t1394660892
+s11706
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/icons/icon-76.png
+c000000005320D61C0000000000001B71
+t1394660892
+s7025
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/icons/icon-76@2x.png
+c000000005320D61C0000000000003B9E
+t1394660892
+s15262
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/icons/icon-small.png
+c000000005320D61C0000000000000CDE
+t1394660892
+s3294
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/icons/icon-small@2x.png
+c000000005320D61C00000000000015E8
+t1394660892
+s5608
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/icons/icon.png
+c000000005320D61C0000000000000F3E
+t1394660892
+s3902
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/icons/icon@2x.png
+c000000005320D61C0000000000001EBD
+t1394660892
+s7869
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/splash/Default-568h@2x~iphone.png
+c000000005320D61C00000000000085B1
+t1394660892
+s34225
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/splash/Default-Landscape@2x~ipad.png
+c000000005320D61C0000000000033D0A
+t1394660892
+s212234
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/splash/Default-Landscape~ipad.png
+c000000005320D61C00000000000166A2
+t1394660892
+s91810
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/splash/Default-Portrait@2x~ipad.png
+c000000005320D61C0000000000033F7C
+t1394660892
+s212860
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/splash/Default-Portrait~ipad.png
+c000000005320D61C0000000000016641
+t1394660892
+s91713
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/splash/Default@2x~iphone.png
+c000000005320D61C0000000000007323
+t1394660892
+s29475
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/splash/Default~iphone.png
+c000000005320D61C000000000000289A
+t1394660892
+s10394
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/main.m
+c000000005320D61C000000000000045B
+t1394660892
+s1115
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Objects-normal/i386/AppDelegate.o
+t1394660975
+s74116
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Objects-normal/i386/Assassins.LinkFileList
+c000000005320D66D0000000000000228
+t1394660973
+s552
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Objects-normal/i386/MainViewController.o
+t1394660975
+s50928
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Objects-normal/i386/main.o
+t1394660975
+s3084
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Script-304B58A110DAC018002A0835.sh
+c000000005320D66D000000000000002D
+t1394660973
+s45
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app
+t1394660975
+s1020
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app.dSYM
+t2
+s0
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/Assassins
+t1394660975
+s286300
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/Default-568h@2x~iphone.png
+t1394660973
+s34225
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/Default-Landscape@2x~ipad.png
+t1394660973
+s212234
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/Default-Landscape~ipad.png
+t1394660973
+s91810
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/Default-Portrait@2x~ipad.png
+t1394660973
+s212860
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/Default-Portrait~ipad.png
+t1394660973
+s91713
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/Default@2x~iphone.png
+t1394660973
+s29475
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/Default~iphone.png
+t1394660973
+s10394
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/Info.plist
+t1394660973
+s1285
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/MainViewController.nib
+t1394660975
+s1332
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/PkgInfo
+t2
+s0
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/de.lproj/Localizable.strings
+t1394660973
+s280
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/en.lproj/Localizable.strings
+t1394660973
+s166
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/icon-40.png
+t1394660973
+s4082
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/icon-40@2x.png
+t1394660973
+s7411
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/icon-50.png
+t1394660973
+s4874
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/icon-50@2x.png
+t1394660973
+s9611
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/icon-60.png
+t1394660973
+s5811
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/icon-60@2x.png
+t1394660973
+s11924
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/icon-72.png
+t1394660973
+s4944
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/icon-72@2x.png
+t1394660973
+s11706
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/icon-76.png
+t1394660973
+s7025
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/icon-76@2x.png
+t1394660973
+s15262
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/icon-small.png
+t1394660973
+s3294
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/icon-small@2x.png
+t1394660973
+s5608
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/icon.png
+t1394660973
+s3902
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/icon@2x.png
+t1394660973
+s7869
+
+N/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/libCordova.a
+c000000005320D66D00000000000D33D0
+t1394660973
+s865232
+
+N/var/folders/6h/nspwrwvn4l9bl2xrrl_qgc1h0000gq/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Assassins-Prefix-czqhurjnqkyocyargqkjbgxzqbyu/Assassins-Prefix.pch.pch
+t1394660975
+s5374800
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies28ef1bed0dd1b841^e4bf1ced0dd1b841^---0#1#1#--18"Check dependencies36"E65EDE48-A01B-42A8-A0E1-71AD7E7039F0-
+
+CCompileC build/Assassins.build/Debug-iphonesimulator/Assassins.build/Objects-normal/i386/AppDelegate.o /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416353775.701779
+e416353775.764033
+r1
+xCompileC
+xbuild/Assassins.build/Debug-iphonesimulator/Assassins.build/Objects-normal/i386/AppDelegate.o
+x/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Classes/AppDelegate.m
+d/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Classes/AppDelegate.h
+d/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Classes/MainViewController.h
+d/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Compile /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Classes/AppDelegate.m218"[1mCompileC[0m build/Assassins.build/Debug-iphonesimulator/Assassins.build/Objects-normal/i386/AppDelegate.o [1mAssassins/Classes/AppDelegate.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler5dc0b3ef0dd1b841^8598c3ef0dd1b841^---0#0#1#-19%DVTDocumentLocation2@128"file:///Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Classes/AppDelegate.m0000000000000000^4807"[1mCompileC[0m build/Assassins.build/Debug-iphonesimulator/Assassins.build/Objects-normal/i386/AppDelegate.o [1mAssassins/Classes/AppDelegate.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Developer/NVIDIA/CUDA-5.5/bin:/usr/local/Cellar/grails/2.2.4/libexec/usr/local/bin:/bin:/usr/local/sbin/:/usr/local/mysql/bin:/Users/zixiao/Dropbox/Python_Programs:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/zixiao/devtools/autotools-bin/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=90 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Assassins-generated-files.hmap -I/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Assassins-own-target-headers.hmap -I/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Assassins-all-target-headers.hmap -iquote /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Assassins-project-headers.hmap -I/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include -I/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/usr/local/lib/include -I/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/UninstalledProducts/include -I/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator -I/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/DerivedSources/i386 -I/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/DerivedSources -F/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator -include /var/folders/6h/nspwrwvn4l9bl2xrrl_qgc1h0000gq/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Assassins-Prefix-czqhurjnqkyocyargqkjbgxzqbyu/Assassins-Prefix.pch -MMD -MT dependencies -MF /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Objects-normal/i386/AppDelegate.dia -c /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Classes/AppDelegate.m -o /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Objects-normal/i386/AppDelegate.o36"55F7E8F7-CFC0-4C94-9487-FECCA591592C-
+b28212108-B788-4781-A204-8862CD5ACCE9
+
+CCompileC build/Assassins.build/Debug-iphonesimulator/Assassins.build/Objects-normal/i386/MainViewController.o /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416353775.702076
+e416353775.759104
+r1
+xCompileC
+xbuild/Assassins.build/Debug-iphonesimulator/Assassins.build/Objects-normal/i386/MainViewController.o
+x/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Classes/MainViewController.m
+d/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Classes/MainViewController.h
+d/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Compile /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Classes/MainViewController.m232"[1mCompileC[0m build/Assassins.build/Debug-iphonesimulator/Assassins.build/Objects-normal/i386/MainViewController.o [1mAssassins/Classes/MainViewController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera1d7b3ef0dd1b841^b953c2ef0dd1b841^---0#0#1#-19%DVTDocumentLocation2@135"file:///Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Classes/MainViewController.m0000000000000000^4849"[1mCompileC[0m build/Assassins.build/Debug-iphonesimulator/Assassins.build/Objects-normal/i386/MainViewController.o [1mAssassins/Classes/MainViewController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Developer/NVIDIA/CUDA-5.5/bin:/usr/local/Cellar/grails/2.2.4/libexec/usr/local/bin:/bin:/usr/local/sbin/:/usr/local/mysql/bin:/Users/zixiao/Dropbox/Python_Programs:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/zixiao/devtools/autotools-bin/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=90 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Assassins-generated-files.hmap -I/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Assassins-own-target-headers.hmap -I/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Assassins-all-target-headers.hmap -iquote /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Assassins-project-headers.hmap -I/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include -I/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/usr/local/lib/include -I/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/UninstalledProducts/include -I/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator -I/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/DerivedSources/i386 -I/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/DerivedSources -F/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator -include /var/folders/6h/nspwrwvn4l9bl2xrrl_qgc1h0000gq/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Assassins-Prefix-czqhurjnqkyocyargqkjbgxzqbyu/Assassins-Prefix.pch -MMD -MT dependencies -MF /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Objects-normal/i386/MainViewController.dia -c /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Classes/MainViewController.m -o /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Objects-normal/i386/MainViewController.o36"29068F2D-36B4-4D18-A7C9-BF83889F14E7-
+b28212108-B788-4781-A204-8862CD5ACCE9
+
+CCompileC build/Assassins.build/Debug-iphonesimulator/Assassins.build/Objects-normal/i386/main.o /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416353775.701557
+e416353775.724979
+r1
+xCompileC
+xbuild/Assassins.build/Debug-iphonesimulator/Assassins.build/Objects-normal/i386/main.o
+x/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/main.m196"[1mCompileC[0m build/Assassins.build/Debug-iphonesimulator/Assassins.build/Objects-normal/i386/main.o [1mAssassins/main.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler23beb3ef0dd1b841^7c98b9ef0dd1b841^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/main.m0000000000000000^4749"[1mCompileC[0m build/Assassins.build/Debug-iphonesimulator/Assassins.build/Objects-normal/i386/main.o [1mAssassins/main.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Developer/NVIDIA/CUDA-5.5/bin:/usr/local/Cellar/grails/2.2.4/libexec/usr/local/bin:/bin:/usr/local/sbin/:/usr/local/mysql/bin:/Users/zixiao/Dropbox/Python_Programs:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/zixiao/devtools/autotools-bin/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=90 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Assassins-generated-files.hmap -I/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Assassins-own-target-headers.hmap -I/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Assassins-all-target-headers.hmap -iquote /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Assassins-project-headers.hmap -I/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include -I/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/usr/local/lib/include -I/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/UninstalledProducts/include -I/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator -I/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/DerivedSources/i386 -I/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/DerivedSources -F/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator -include /var/folders/6h/nspwrwvn4l9bl2xrrl_qgc1h0000gq/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Assassins-Prefix-czqhurjnqkyocyargqkjbgxzqbyu/Assassins-Prefix.pch -MMD -MT dependencies -MF /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Objects-normal/i386/main.dia -c /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/main.m -o /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Objects-normal/i386/main.o36"A93D557F-1991-41B4-A9F0-4735B05F7A56-
+b28212108-B788-4781-A204-8862CD5ACCE9
+
+CCompileXIB /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Classes/MainViewController.xib
+s416353773.206736
+e416353775.410601
+r1
+xCompileXIB
+x/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Classes/MainViewController.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Compiling /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Classes/MainViewController.xib67"[1mCompileXIB[0m [1mAssassins/Classes/MainViewController.xib[0m2e1f35ed0dd1b841^431e69ef0dd1b841^---0#0#1#-19%DVTDocumentLocation2@137"file:///Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Classes/MainViewController.xib0000000000000000^1370"[1mCompileXIB[0m [1mAssassins/Classes/MainViewController.xib[0m    cd /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Developer/NVIDIA/CUDA-5.5/bin:/usr/local/Cellar/grails/2.2.4/libexec/usr/local/bin:/bin:/usr/local/sbin/:/usr/local/mysql/bin:/Users/zixiao/Dropbox/Python_Programs:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/zixiao/devtools/autotools-bin/bin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 5.0 --output-format human-readable-text --compile /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/MainViewController.nib /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Classes/MainViewController.xib36"302BD652-0B0A-4C2B-B362-B74B14173319-
+b28212108-B788-4781-A204-8862CD5ACCE9
+
+CCopyStringsFile /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/de.lproj/Localizable.strings Assassins/Resources/de.lproj/Localizable.strings
+s416353773.207825
+e416353773.212896
+r1
+xCopyStringsFile
+x/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/de.lproj/Localizable.strings
+xAssassins/Resources/de.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy Assassins/Resources/de.lproj/Localizable.strings130"[1mCopyStringsFile[0m build/emulator/Assassins.app/de.lproj/Localizable.strings Assassins/Resources/de.lproj/Localizable.strings5fb235ed0dd1b841^5f9636ed0dd1b841^---0#0#1#-19%DVTDocumentLocation2@145"file:///Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/de.lproj/Localizable.strings0000000000000000^1125"[1mCopyStringsFile[0m build/emulator/Assassins.app/de.lproj/Localizable.strings Assassins/Resources/de.lproj/Localizable.strings    cd /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Developer/NVIDIA/CUDA-5.5/bin:/usr/local/Cellar/grails/2.2.4/libexec/usr/local/bin:/bin:/usr/local/sbin/:/usr/local/mysql/bin:/Users/zixiao/Dropbox/Python_Programs:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/zixiao/devtools/autotools-bin/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/de.lproj -- Assassins/Resources/de.lproj/Localizable.strings36"43DB773F-1161-41E1-BDE8-21C8F2796399-
+b28212108-B788-4781-A204-8862CD5ACCE9
+
+CCopyStringsFile /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/en.lproj/Localizable.strings Assassins/Resources/en.lproj/Localizable.strings
+s416353773.206380
+e416353773.212829
+r1
+xCopyStringsFile
+x/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/en.lproj/Localizable.strings
+xAssassins/Resources/en.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy Assassins/Resources/en.lproj/Localizable.strings130"[1mCopyStringsFile[0m build/emulator/Assassins.app/en.lproj/Localizable.strings Assassins/Resources/en.lproj/Localizable.strings5b2835ed0dd1b841^699036ed0dd1b841^---0#0#1#-19%DVTDocumentLocation2@145"file:///Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/en.lproj/Localizable.strings0000000000000000^1125"[1mCopyStringsFile[0m build/emulator/Assassins.app/en.lproj/Localizable.strings Assassins/Resources/en.lproj/Localizable.strings    cd /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Developer/NVIDIA/CUDA-5.5/bin:/usr/local/Cellar/grails/2.2.4/libexec/usr/local/bin:/bin:/usr/local/sbin/:/usr/local/mysql/bin:/Users/zixiao/Dropbox/Python_Programs:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/zixiao/devtools/autotools-bin/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/en.lproj -- Assassins/Resources/en.lproj/Localizable.strings36"47B24B07-350C-4534-8593-EAB649CDB5C8-
+b28212108-B788-4781-A204-8862CD5ACCE9
+
+CCpResource Assassins/Resources/icons/icon-40.png build/emulator/Assassins.app/icon-40.png
+s416353773.212237
+e416353773.214047
+r1
+xCpResource
+xAssassins/Resources/icons/icon-40.png
+xbuild/emulator/Assassins.app/icon-40.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy build/emulator/Assassins.app/icon-40.png97"[1mCpResource[0m Assassins/Resources/icons/icon-40.png build/emulator/Assassins.app/icon-40.pngc99136ed0dd1b841^74cf36ed0dd1b841^---0#0#1#-19%DVTDocumentLocation2@137"file:///Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/icon-40.png00345c6edeffdf42^1181"[1mCpResource[0m Assassins/Resources/icons/icon-40.png build/emulator/Assassins.app/icon-40.png    cd /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Developer/NVIDIA/CUDA-5.5/bin:/usr/local/Cellar/grails/2.2.4/libexec/usr/local/bin:/bin:/usr/local/sbin/:/usr/local/mysql/bin:/Users/zixiao/Dropbox/Python_Programs:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/zixiao/devtools/autotools-bin/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/icons/icon-40.png /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app36"AC1A301F-EFEB-40D5-B0A6-A6B437BF810B-
+b28212108-B788-4781-A204-8862CD5ACCE9
+
+CCpResource Assassins/Resources/icons/icon-40@2x.png build/emulator/Assassins.app/icon-40@2x.png
+s416353773.204521
+e416353773.206193
+r1
+xCpResource
+xAssassins/Resources/icons/icon-40@2x.png
+xbuild/emulator/Assassins.app/icon-40@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy build/emulator/Assassins.app/icon-40@2x.png103"[1mCpResource[0m Assassins/Resources/icons/icon-40@2x.png build/emulator/Assassins.app/icon-40@2x.pngfb7834ed0dd1b841^02d434ed0dd1b841^---0#0#1#-19%DVTDocumentLocation2@140"file:///Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/icon-40@2x.png00345c6edeffdf42^1190"[1mCpResource[0m Assassins/Resources/icons/icon-40@2x.png build/emulator/Assassins.app/icon-40@2x.png    cd /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Developer/NVIDIA/CUDA-5.5/bin:/usr/local/Cellar/grails/2.2.4/libexec/usr/local/bin:/bin:/usr/local/sbin/:/usr/local/mysql/bin:/Users/zixiao/Dropbox/Python_Programs:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/zixiao/devtools/autotools-bin/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/icons/icon-40@2x.png /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app36"A0ABFB22-40AE-4E7E-A4DA-E595238AFE49-
+b28212108-B788-4781-A204-8862CD5ACCE9
+
+CCpResource Assassins/Resources/icons/icon-50.png build/emulator/Assassins.app/icon-50.png
+s416353773.206954
+e416353773.209001
+r1
+xCpResource
+xAssassins/Resources/icons/icon-50.png
+xbuild/emulator/Assassins.app/icon-50.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy build/emulator/Assassins.app/icon-50.png97"[1mCpResource[0m Assassins/Resources/icons/icon-50.png build/emulator/Assassins.app/icon-50.png4f1f35ed0dd1b841^575f35ed0dd1b841^---0#0#1#-19%DVTDocumentLocation2@137"file:///Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/icon-50.png00345c6edeffdf42^1181"[1mCpResource[0m Assassins/Resources/icons/icon-50.png build/emulator/Assassins.app/icon-50.png    cd /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Developer/NVIDIA/CUDA-5.5/bin:/usr/local/Cellar/grails/2.2.4/libexec/usr/local/bin:/bin:/usr/local/sbin/:/usr/local/mysql/bin:/Users/zixiao/Dropbox/Python_Programs:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/zixiao/devtools/autotools-bin/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/icons/icon-50.png /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app36"57614C1E-2832-4E40-8543-2E111DB4C83A-
+b28212108-B788-4781-A204-8862CD5ACCE9
+
+CCpResource Assassins/Resources/icons/icon-50@2x.png build/emulator/Assassins.app/icon-50@2x.png
+s416353773.214040
+e416353773.215690
+r1
+xCpResource
+xAssassins/Resources/icons/icon-50@2x.png
+xbuild/emulator/Assassins.app/icon-50@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy build/emulator/Assassins.app/icon-50@2x.png103"[1mCpResource[0m Assassins/Resources/icons/icon-50@2x.png build/emulator/Assassins.app/icon-50@2x.png210137ed0dd1b841^f03637ed0dd1b841^---0#0#1#-19%DVTDocumentLocation2@140"file:///Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/icon-50@2x.png00345c6edeffdf42^1190"[1mCpResource[0m Assassins/Resources/icons/icon-50@2x.png build/emulator/Assassins.app/icon-50@2x.png    cd /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Developer/NVIDIA/CUDA-5.5/bin:/usr/local/Cellar/grails/2.2.4/libexec/usr/local/bin:/bin:/usr/local/sbin/:/usr/local/mysql/bin:/Users/zixiao/Dropbox/Python_Programs:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/zixiao/devtools/autotools-bin/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/icons/icon-50@2x.png /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app36"0E7C3A6A-C6BE-42B8-A7DE-C4E89CD0A9C5-
+b28212108-B788-4781-A204-8862CD5ACCE9
+
+CCpResource Assassins/Resources/icons/icon-60.png build/emulator/Assassins.app/icon-60.png
+s416353773.212676
+e416353773.214261
+r1
+xCpResource
+xAssassins/Resources/icons/icon-60.png
+xbuild/emulator/Assassins.app/icon-60.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy build/emulator/Assassins.app/icon-60.png97"[1mCpResource[0m Assassins/Resources/icons/icon-60.png build/emulator/Assassins.app/icon-60.pngb1a236ed0dd1b841^ebe636ed0dd1b841^---0#0#1#-19%DVTDocumentLocation2@137"file:///Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/icon-60.png00345c6edeffdf42^1181"[1mCpResource[0m Assassins/Resources/icons/icon-60.png build/emulator/Assassins.app/icon-60.png    cd /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Developer/NVIDIA/CUDA-5.5/bin:/usr/local/Cellar/grails/2.2.4/libexec/usr/local/bin:/bin:/usr/local/sbin/:/usr/local/mysql/bin:/Users/zixiao/Dropbox/Python_Programs:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/zixiao/devtools/autotools-bin/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/icons/icon-60.png /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app36"1C9231DE-74A8-466D-94E1-7C66FF83CD82-
+b28212108-B788-4781-A204-8862CD5ACCE9
+
+CCpResource Assassins/Resources/icons/icon-60@2x.png build/emulator/Assassins.app/icon-60@2x.png
+s416353773.207349
+e416353773.209082
+r1
+xCpResource
+xAssassins/Resources/icons/icon-60@2x.png
+xbuild/emulator/Assassins.app/icon-60@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy build/emulator/Assassins.app/icon-60@2x.png103"[1mCpResource[0m Assassins/Resources/icons/icon-60@2x.png build/emulator/Assassins.app/icon-60@2x.pngee4035ed0dd1b841^90a335ed0dd1b841^---0#0#1#-19%DVTDocumentLocation2@140"file:///Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/icon-60@2x.png00345c6edeffdf42^1190"[1mCpResource[0m Assassins/Resources/icons/icon-60@2x.png build/emulator/Assassins.app/icon-60@2x.png    cd /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Developer/NVIDIA/CUDA-5.5/bin:/usr/local/Cellar/grails/2.2.4/libexec/usr/local/bin:/bin:/usr/local/sbin/:/usr/local/mysql/bin:/Users/zixiao/Dropbox/Python_Programs:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/zixiao/devtools/autotools-bin/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/icons/icon-60@2x.png /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app36"939FFDEF-0CC4-44C5-9BB4-50FB013AFBFB-
+b28212108-B788-4781-A204-8862CD5ACCE9
+
+CCpResource Assassins/Resources/icons/icon-72.png build/emulator/Assassins.app/icon-72.png
+s416353773.204660
+e416353773.207161
+r1
+xCpResource
+xAssassins/Resources/icons/icon-72.png
+xbuild/emulator/Assassins.app/icon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy build/emulator/Assassins.app/icon-72.png97"[1mCpResource[0m Assassins/Resources/icons/icon-72.png build/emulator/Assassins.app/icon-72.png4c8934ed0dd1b841^c92235ed0dd1b841^---0#0#1#-19%DVTDocumentLocation2@137"file:///Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/icon-72.png00345c6edeffdf42^1181"[1mCpResource[0m Assassins/Resources/icons/icon-72.png build/emulator/Assassins.app/icon-72.png    cd /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Developer/NVIDIA/CUDA-5.5/bin:/usr/local/Cellar/grails/2.2.4/libexec/usr/local/bin:/bin:/usr/local/sbin/:/usr/local/mysql/bin:/Users/zixiao/Dropbox/Python_Programs:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/zixiao/devtools/autotools-bin/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/icons/icon-72.png /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app36"8FD15D02-C58A-4C73-8583-A7912F775BD9-
+b28212108-B788-4781-A204-8862CD5ACCE9
+
+CCpResource Assassins/Resources/icons/icon-72@2x.png build/emulator/Assassins.app/icon-72@2x.png
+s416353773.215235
+e416353773.216271
+r1
+xCpResource
+xAssassins/Resources/icons/icon-72@2x.png
+xbuild/emulator/Assassins.app/icon-72@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy build/emulator/Assassins.app/icon-72@2x.png103"[1mCpResource[0m Assassins/Resources/icons/icon-72@2x.png build/emulator/Assassins.app/icon-72@2x.png2b3137ed0dd1b841^315e37ed0dd1b841^---0#0#1#-19%DVTDocumentLocation2@140"file:///Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/icon-72@2x.png00345c6edeffdf42^1190"[1mCpResource[0m Assassins/Resources/icons/icon-72@2x.png build/emulator/Assassins.app/icon-72@2x.png    cd /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Developer/NVIDIA/CUDA-5.5/bin:/usr/local/Cellar/grails/2.2.4/libexec/usr/local/bin:/bin:/usr/local/sbin/:/usr/local/mysql/bin:/Users/zixiao/Dropbox/Python_Programs:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/zixiao/devtools/autotools-bin/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/icons/icon-72@2x.png /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app36"414BFF55-E4B8-4776-9E95-D56BC873283B-
+b28212108-B788-4781-A204-8862CD5ACCE9
+
+CCpResource Assassins/Resources/icons/icon-76.png build/emulator/Assassins.app/icon-76.png
+s416353773.204394
+e416353773.206052
+r1
+xCpResource
+xAssassins/Resources/icons/icon-76.png
+xbuild/emulator/Assassins.app/icon-76.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy build/emulator/Assassins.app/icon-76.png97"[1mCpResource[0m Assassins/Resources/icons/icon-76.png build/emulator/Assassins.app/icon-76.pnge17a34ed0dd1b841^dfc434ed0dd1b841^---0#0#1#-19%DVTDocumentLocation2@137"file:///Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/icon-76.png00345c6edeffdf42^1181"[1mCpResource[0m Assassins/Resources/icons/icon-76.png build/emulator/Assassins.app/icon-76.png    cd /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Developer/NVIDIA/CUDA-5.5/bin:/usr/local/Cellar/grails/2.2.4/libexec/usr/local/bin:/bin:/usr/local/sbin/:/usr/local/mysql/bin:/Users/zixiao/Dropbox/Python_Programs:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/zixiao/devtools/autotools-bin/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/icons/icon-76.png /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app36"706DDEEB-28D7-470D-9555-70F5CE696C1C-
+b28212108-B788-4781-A204-8862CD5ACCE9
+
+CCpResource Assassins/Resources/icons/icon-76@2x.png build/emulator/Assassins.app/icon-76@2x.png
+s416353773.214901
+e416353773.216335
+r1
+xCpResource
+xAssassins/Resources/icons/icon-76@2x.png
+xbuild/emulator/Assassins.app/icon-76@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy build/emulator/Assassins.app/icon-76@2x.png103"[1mCpResource[0m Assassins/Resources/icons/icon-76@2x.png build/emulator/Assassins.app/icon-76@2x.png8b3237ed0dd1b841^6f6337ed0dd1b841^---0#0#1#-19%DVTDocumentLocation2@140"file:///Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/icon-76@2x.png00345c6edeffdf42^1190"[1mCpResource[0m Assassins/Resources/icons/icon-76@2x.png build/emulator/Assassins.app/icon-76@2x.png    cd /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Developer/NVIDIA/CUDA-5.5/bin:/usr/local/Cellar/grails/2.2.4/libexec/usr/local/bin:/bin:/usr/local/sbin/:/usr/local/mysql/bin:/Users/zixiao/Dropbox/Python_Programs:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/zixiao/devtools/autotools-bin/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/icons/icon-76@2x.png /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app36"AAFBBC8D-2C5C-4298-A2FC-9443429D6375-
+b28212108-B788-4781-A204-8862CD5ACCE9
+
+CCpResource Assassins/Resources/icons/icon-small.png build/emulator/Assassins.app/icon-small.png
+s416353773.208168
+e416353773.209815
+r1
+xCpResource
+xAssassins/Resources/icons/icon-small.png
+xbuild/emulator/Assassins.app/icon-small.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy build/emulator/Assassins.app/icon-small.png103"[1mCpResource[0m Assassins/Resources/icons/icon-small.png build/emulator/Assassins.app/icon-small.pngb07535ed0dd1b841^5fb235ed0dd1b841^---0#0#1#-19%DVTDocumentLocation2@140"file:///Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/icon-small.png00345c6edeffdf42^1190"[1mCpResource[0m Assassins/Resources/icons/icon-small.png build/emulator/Assassins.app/icon-small.png    cd /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Developer/NVIDIA/CUDA-5.5/bin:/usr/local/Cellar/grails/2.2.4/libexec/usr/local/bin:/bin:/usr/local/sbin/:/usr/local/mysql/bin:/Users/zixiao/Dropbox/Python_Programs:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/zixiao/devtools/autotools-bin/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/icons/icon-small.png /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app36"56794CBB-1644-44D5-A803-E43E8B21A407-
+b28212108-B788-4781-A204-8862CD5ACCE9
+
+CCpResource Assassins/Resources/icons/icon-small@2x.png build/emulator/Assassins.app/icon-small@2x.png
+s416353773.211291
+e416353773.212306
+r1
+xCpResource
+xAssassins/Resources/icons/icon-small@2x.png
+xbuild/emulator/Assassins.app/icon-small@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy build/emulator/Assassins.app/icon-small@2x.png109"[1mCpResource[0m Assassins/Resources/icons/icon-small@2x.png build/emulator/Assassins.app/icon-small@2x.pngf52e36ed0dd1b841^075d36ed0dd1b841^---0#0#1#-19%DVTDocumentLocation2@143"file:///Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/icon-small@2x.png00345c6edeffdf42^1199"[1mCpResource[0m Assassins/Resources/icons/icon-small@2x.png build/emulator/Assassins.app/icon-small@2x.png    cd /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Developer/NVIDIA/CUDA-5.5/bin:/usr/local/Cellar/grails/2.2.4/libexec/usr/local/bin:/bin:/usr/local/sbin/:/usr/local/mysql/bin:/Users/zixiao/Dropbox/Python_Programs:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/zixiao/devtools/autotools-bin/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/icons/icon-small@2x.png /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app36"6E124985-DF17-4264-AC56-1129EC7F091C-
+b28212108-B788-4781-A204-8862CD5ACCE9
+
+CCpResource Assassins/Resources/icons/icon.png build/emulator/Assassins.app/icon.png
+s416353773.204966
+e416353773.206715
+r1
+xCpResource
+xAssassins/Resources/icons/icon.png
+xbuild/emulator/Assassins.app/icon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy build/emulator/Assassins.app/icon.png91"[1mCpResource[0m Assassins/Resources/icons/icon.png build/emulator/Assassins.app/icon.pngaa9a34ed0dd1b841^f71f35ed0dd1b841^---0#0#1#-19%DVTDocumentLocation2@134"file:///Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/icon.png00345c6edeffdf42^1172"[1mCpResource[0m Assassins/Resources/icons/icon.png build/emulator/Assassins.app/icon.png    cd /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Developer/NVIDIA/CUDA-5.5/bin:/usr/local/Cellar/grails/2.2.4/libexec/usr/local/bin:/bin:/usr/local/sbin/:/usr/local/mysql/bin:/Users/zixiao/Dropbox/Python_Programs:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/zixiao/devtools/autotools-bin/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/icons/icon.png /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app36"140A1C95-A7B1-48E4-8334-43C78D26B1F3-
+b28212108-B788-4781-A204-8862CD5ACCE9
+
+CCpResource Assassins/Resources/icons/icon@2x.png build/emulator/Assassins.app/icon@2x.png
+s416353773.205278
+e416353773.206914
+r1
+xCpResource
+xAssassins/Resources/icons/icon@2x.png
+xbuild/emulator/Assassins.app/icon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy build/emulator/Assassins.app/icon@2x.png97"[1mCpResource[0m Assassins/Resources/icons/icon@2x.png build/emulator/Assassins.app/icon@2x.png00ae34ed0dd1b841^cb1235ed0dd1b841^---0#0#1#-19%DVTDocumentLocation2@137"file:///Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/icon@2x.png00345c6edeffdf42^1181"[1mCpResource[0m Assassins/Resources/icons/icon@2x.png build/emulator/Assassins.app/icon@2x.png    cd /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Developer/NVIDIA/CUDA-5.5/bin:/usr/local/Cellar/grails/2.2.4/libexec/usr/local/bin:/bin:/usr/local/sbin/:/usr/local/mysql/bin:/Users/zixiao/Dropbox/Python_Programs:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/zixiao/devtools/autotools-bin/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/icons/icon@2x.png /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app36"07A1F71B-1E1E-4D80-B523-10B191A95AD2-
+b28212108-B788-4781-A204-8862CD5ACCE9
+
+CCpResource Assassins/Resources/splash/Default-568h@2x~iphone.png build/emulator/Assassins.app/Default-568h@2x~iphone.png
+s416353773.213904
+e416353773.215837
+r1
+xCpResource
+xAssassins/Resources/splash/Default-568h@2x~iphone.png
+xbuild/emulator/Assassins.app/Default-568h@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/emulator/Assassins.app/Default-568h@2x~iphone.png128"[1mCpResource[0m Assassins/Resources/splash/Default-568h@2x~iphone.png build/emulator/Assassins.app/Default-568h@2x~iphone.png3a0337ed0dd1b841^793e37ed0dd1b841^---0#0#1#-19%DVTDocumentLocation2@152"file:///Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/Default-568h@2x~iphone.png00345c6edeffdf42^1228"[1mCpResource[0m Assassins/Resources/splash/Default-568h@2x~iphone.png build/emulator/Assassins.app/Default-568h@2x~iphone.png    cd /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Developer/NVIDIA/CUDA-5.5/bin:/usr/local/Cellar/grails/2.2.4/libexec/usr/local/bin:/bin:/usr/local/sbin/:/usr/local/mysql/bin:/Users/zixiao/Dropbox/Python_Programs:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/zixiao/devtools/autotools-bin/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/splash/Default-568h@2x~iphone.png /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app36"3B02DFB8-EA24-4C5D-BA70-6DA81798588E-
+b28212108-B788-4781-A204-8862CD5ACCE9
+
+CCpResource Assassins/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/Assassins.app/Default-Landscape@2x~ipad.png
+s416353773.209423
+e416353773.211042
+r1
+xCpResource
+xAssassins/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/emulator/Assassins.app/Default-Landscape@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/emulator/Assassins.app/Default-Landscape@2x~ipad.png134"[1mCpResource[0m Assassins/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/Assassins.app/Default-Landscape@2x~ipad.png2fc135ed0dd1b841^6c0836ed0dd1b841^---0#0#1#-19%DVTDocumentLocation2@155"file:///Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/Default-Landscape@2x~ipad.png00345c6edeffdf42^1237"[1mCpResource[0m Assassins/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/Assassins.app/Default-Landscape@2x~ipad.png    cd /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Developer/NVIDIA/CUDA-5.5/bin:/usr/local/Cellar/grails/2.2.4/libexec/usr/local/bin:/bin:/usr/local/sbin/:/usr/local/mysql/bin:/Users/zixiao/Dropbox/Python_Programs:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/zixiao/devtools/autotools-bin/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/splash/Default-Landscape@2x~ipad.png /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app36"EC5EA090-3201-4D9F-B25C-984546B9EC6E-
+b28212108-B788-4781-A204-8862CD5ACCE9
+
+CCpResource Assassins/Resources/splash/Default-Landscape~ipad.png build/emulator/Assassins.app/Default-Landscape~ipad.png
+s416353773.210792
+e416353773.212317
+r1
+xCpResource
+xAssassins/Resources/splash/Default-Landscape~ipad.png
+xbuild/emulator/Assassins.app/Default-Landscape~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/emulator/Assassins.app/Default-Landscape~ipad.png128"[1mCpResource[0m Assassins/Resources/splash/Default-Landscape~ipad.png build/emulator/Assassins.app/Default-Landscape~ipad.pnge61e36ed0dd1b841^f47036ed0dd1b841^---0#0#1#-19%DVTDocumentLocation2@152"file:///Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/Default-Landscape~ipad.png00345c6edeffdf42^1228"[1mCpResource[0m Assassins/Resources/splash/Default-Landscape~ipad.png build/emulator/Assassins.app/Default-Landscape~ipad.png    cd /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Developer/NVIDIA/CUDA-5.5/bin:/usr/local/Cellar/grails/2.2.4/libexec/usr/local/bin:/bin:/usr/local/sbin/:/usr/local/mysql/bin:/Users/zixiao/Dropbox/Python_Programs:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/zixiao/devtools/autotools-bin/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/splash/Default-Landscape~ipad.png /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app36"B9B8DD04-5441-40DA-A406-8ABFB32A9539-
+b28212108-B788-4781-A204-8862CD5ACCE9
+
+CCpResource Assassins/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/Assassins.app/Default-Portrait@2x~ipad.png
+s416353773.210839
+e416353773.212816
+r1
+xCpResource
+xAssassins/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/emulator/Assassins.app/Default-Portrait@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/emulator/Assassins.app/Default-Portrait@2x~ipad.png132"[1mCpResource[0m Assassins/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/Assassins.app/Default-Portrait@2x~ipad.pngfe2c36ed0dd1b841^f58336ed0dd1b841^---0#0#1#-19%DVTDocumentLocation2@154"file:///Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/Default-Portrait@2x~ipad.png00345c6edeffdf42^1234"[1mCpResource[0m Assassins/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/Assassins.app/Default-Portrait@2x~ipad.png    cd /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Developer/NVIDIA/CUDA-5.5/bin:/usr/local/Cellar/grails/2.2.4/libexec/usr/local/bin:/bin:/usr/local/sbin/:/usr/local/mysql/bin:/Users/zixiao/Dropbox/Python_Programs:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/zixiao/devtools/autotools-bin/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/splash/Default-Portrait@2x~ipad.png /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app36"E9AB574A-D31C-43B7-8C51-68A02AB52FD6-
+b28212108-B788-4781-A204-8862CD5ACCE9
+
+CCpResource Assassins/Resources/splash/Default-Portrait~ipad.png build/emulator/Assassins.app/Default-Portrait~ipad.png
+s416353773.211689
+e416353773.213043
+r1
+xCpResource
+xAssassins/Resources/splash/Default-Portrait~ipad.png
+xbuild/emulator/Assassins.app/Default-Portrait~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/emulator/Assassins.app/Default-Portrait~ipad.png126"[1mCpResource[0m Assassins/Resources/splash/Default-Portrait~ipad.png build/emulator/Assassins.app/Default-Portrait~ipad.pngb95336ed0dd1b841^66a036ed0dd1b841^---0#0#1#-19%DVTDocumentLocation2@151"file:///Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/Default-Portrait~ipad.png00345c6edeffdf42^1225"[1mCpResource[0m Assassins/Resources/splash/Default-Portrait~ipad.png build/emulator/Assassins.app/Default-Portrait~ipad.png    cd /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Developer/NVIDIA/CUDA-5.5/bin:/usr/local/Cellar/grails/2.2.4/libexec/usr/local/bin:/bin:/usr/local/sbin/:/usr/local/mysql/bin:/Users/zixiao/Dropbox/Python_Programs:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/zixiao/devtools/autotools-bin/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/splash/Default-Portrait~ipad.png /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app36"ED361724-0FA2-48E2-B000-26B20FF0BF65-
+b28212108-B788-4781-A204-8862CD5ACCE9
+
+CCpResource Assassins/Resources/splash/Default@2x~iphone.png build/emulator/Assassins.app/Default@2x~iphone.png
+s416353773.212499
+e416353773.214113
+r1
+xCpResource
+xAssassins/Resources/splash/Default@2x~iphone.png
+xbuild/emulator/Assassins.app/Default@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/emulator/Assassins.app/Default@2x~iphone.png118"[1mCpResource[0m Assassins/Resources/splash/Default@2x~iphone.png build/emulator/Assassins.app/Default@2x~iphone.png189736ed0dd1b841^f5d836ed0dd1b841^---0#0#1#-19%DVTDocumentLocation2@147"file:///Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/Default@2x~iphone.png00345c6edeffdf42^1213"[1mCpResource[0m Assassins/Resources/splash/Default@2x~iphone.png build/emulator/Assassins.app/Default@2x~iphone.png    cd /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Developer/NVIDIA/CUDA-5.5/bin:/usr/local/Cellar/grails/2.2.4/libexec/usr/local/bin:/bin:/usr/local/sbin/:/usr/local/mysql/bin:/Users/zixiao/Dropbox/Python_Programs:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/zixiao/devtools/autotools-bin/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/splash/Default@2x~iphone.png /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app36"7A0D1B15-258E-4B89-BDA6-96DC1533665E-
+b28212108-B788-4781-A204-8862CD5ACCE9
+
+CCpResource Assassins/Resources/splash/Default~iphone.png build/emulator/Assassins.app/Default~iphone.png
+s416353773.213275
+e416353773.214963
+r1
+xCpResource
+xAssassins/Resources/splash/Default~iphone.png
+xbuild/emulator/Assassins.app/Default~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy build/emulator/Assassins.app/Default~iphone.png112"[1mCpResource[0m Assassins/Resources/splash/Default~iphone.png build/emulator/Assassins.app/Default~iphone.png55bf36ed0dd1b841^780837ed0dd1b841^---0#0#1#-19%DVTDocumentLocation2@144"file:///Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/Default~iphone.png00345c6edeffdf42^1204"[1mCpResource[0m Assassins/Resources/splash/Default~iphone.png build/emulator/Assassins.app/Default~iphone.png    cd /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Developer/NVIDIA/CUDA-5.5/bin:/usr/local/Cellar/grails/2.2.4/libexec/usr/local/bin:/bin:/usr/local/sbin/:/usr/local/mysql/bin:/Users/zixiao/Dropbox/Python_Programs:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/zixiao/devtools/autotools-bin/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Resources/splash/Default~iphone.png /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app36"DAEABC29-6CB1-4EB3-B4DC-600BA4B66755-
+b28212108-B788-4781-A204-8862CD5ACCE9
+
+CGenerateDSYMFile /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app.dSYM /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/Assassins
+s416353775.872393
+e416353775.922672
+r1
+xGenerateDSYMFile
+x/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app.dSYM
+x/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/Assassins
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Generate /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app.dSYM105"[1mGenerateDSYMFile[0m [1mbuild/emulator/Assassins.app.dSYM[0m build/emulator/Assassins.app/Assassins9067dfef0dd1b841^1635ecef0dd1b841^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app.dSYM00345c6edeffdf42^1186"[1mGenerateDSYMFile[0m [1mbuild/emulator/Assassins.app.dSYM[0m build/emulator/Assassins.app/Assassins    cd /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Developer/NVIDIA/CUDA-5.5/bin:/usr/local/Cellar/grails/2.2.4/libexec/usr/local/bin:/bin:/usr/local/sbin/:/usr/local/mysql/bin:/Users/zixiao/Dropbox/Python_Programs:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/zixiao/devtools/autotools-bin/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/Assassins -o /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app.dSYM36"BFD64EFF-D786-48D2-A912-B9AA4791D697-
+b28212108-B788-4781-A204-8862CD5ACCE9
+
+CLd /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/Assassins normal i386
+s416353775.765050
+e416353775.871460
+r1
+xLd
+x/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/Assassins
+xnormal
+xi386
+d/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Objects-normal/i386/Assassins.LinkFileList
+d/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/libCordova.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Objects-normal/i386/main.o
+d/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Objects-normal/i386/AppDelegate.o
+d/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Objects-normal/i386/MainViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphonesimulator.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Link /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/Assassins61"[1mLd[0m build/emulator/Assassins.app/Assassins normal i386bbf0c3ef0dd1b841^3318dfef0dd1b841^---0#0#1#--2455"[1mLd[0m build/emulator/Assassins.app/Assassins normal i386    cd /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios    export IPHONEOS_DEPLOYMENT_TARGET=5.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Developer/NVIDIA/CUDA-5.5/bin:/usr/local/Cellar/grails/2.2.4/libexec/usr/local/bin:/bin:/usr/local/sbin/:/usr/local/mysql/bin:/Users/zixiao/Dropbox/Python_Programs:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/zixiao/devtools/autotools-bin/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator -F/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator -filelist /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Objects-normal/i386/Assassins.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework AssetsLibrary /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/libCordova.a -framework CoreGraphics -framework MobileCoreServices -framework CoreLocation -Xlinker -dependency_info -Xlinker /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Objects-normal/i386/Assassins_dependency_info.dat -o /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/Assassins36"8BC9875E-F54A-4D39-B149-EA1CEEFF3531-
+b28212108-B788-4781-A204-8862CD5ACCE9
+
+CPhaseScriptExecution Copy\ www\ directory /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Script-304B58A110DAC018002A0835.sh
+s416353773.117785
+e416353773.203972
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.064s
+ouser	0m0.025s
+osys	0m0.036s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'144"[1mPhaseScriptExecution[0m Copy\ www\ directory build/Assassins.build/Debug-iphonesimulator/Assassins.build/Script-304B58A110DAC018002A0835.sh317a1eed0dd1b841^613734ed0dd1b841^-42"real	0m0.064suser	0m0.025ssys	0m0.036s3(21%IDEActivityLogMessage2@14"real	0m0.064s-416353773#1#14#-0#-----2@14"user	0m0.025s-416353773#15#14#-0#-----2@13"sys	0m0.036s-416353773#29#13#-0#-----0#0#1#--442"[1mPhaseScriptExecution[0m Copy\ www\ directory build/Assassins.build/Debug-iphonesimulator/Assassins.build/Script-304B58A110DAC018002A0835.sh    cd /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios    /bin/sh -c /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Script-304B58A110DAC018002A0835.sh36"320D74BF-C4FE-4A51-9D71-6ACFD5DF97CE-
+b28212108-B788-4781-A204-8862CD5ACCE9
+
+CProcessInfoPlistFile /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/Info.plist /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Assassins-Info.plist
+s416353773.114203
+e416353773.116259
+r1
+xProcessInfoPlistFile
+x/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/Info.plist
+x/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Assassins-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Process /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Assassins-Info.plist107"[1mProcessInfoPlistFile[0m build/emulator/Assassins.app/Info.plist [1mAssassins/Assassins-Info.plist[0me3521ded0dd1b841^0fef1ded0dd1b841^---0#0#1#-19%DVTDocumentLocation2@127"file:///Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Assassins-Info.plist0000000000000000^1316"[1mProcessInfoPlistFile[0m build/emulator/Assassins.app/Info.plist [1mAssassins/Assassins-Info.plist[0m    cd /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Developer/NVIDIA/CUDA-5.5/bin:/usr/local/Cellar/grails/2.2.4/libexec/usr/local/bin:/bin:/usr/local/sbin/:/usr/local/mysql/bin:/Users/zixiao/Dropbox/Python_Programs:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/zixiao/devtools/autotools-bin/bin"    builtin-infoPlistUtility /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Assassins-Info.plist -genpkginfo /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app/Info.plist36"F1E783AB-2C62-4B64-8145-7928E8B2F7EA-
+b28212108-B788-4781-A204-8862CD5ACCE9
+
+CProcessPCH /var/folders/6h/nspwrwvn4l9bl2xrrl_qgc1h0000gq/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Assassins-Prefix-czqhurjnqkyocyargqkjbgxzqbyu/Assassins-Prefix.pch.pch Assassins/Assassins-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416353775.411517
+e416353775.700843
+r1
+xProcessPCH
+x/var/folders/6h/nspwrwvn4l9bl2xrrl_qgc1h0000gq/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Assassins-Prefix-czqhurjnqkyocyargqkjbgxzqbyu/Assassins-Prefix.pch.pch
+xAssassins/Assassins-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Assassins-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile Assassins/Assassins-Prefix.pch304"[1mProcessPCH[0m /var/folders/6h/nspwrwvn4l9bl2xrrl_qgc1h0000gq/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Assassins-Prefix-czqhurjnqkyocyargqkjbgxzqbyu/Assassins-Prefix.pch.pch Assassins/Assassins-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler307f69ef0dd1b841^d36bb3ef0dd1b841^---0#0#1#-19%DVTDocumentLocation2@127"file:///Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Assassins-Prefix.pch0000000000000000^4712"[1mProcessPCH[0m /var/folders/6h/nspwrwvn4l9bl2xrrl_qgc1h0000gq/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Assassins-Prefix-czqhurjnqkyocyargqkjbgxzqbyu/Assassins-Prefix.pch.pch Assassins/Assassins-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Developer/NVIDIA/CUDA-5.5/bin:/usr/local/Cellar/grails/2.2.4/libexec/usr/local/bin:/bin:/usr/local/sbin/:/usr/local/mysql/bin:/Users/zixiao/Dropbox/Python_Programs:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/zixiao/devtools/autotools-bin/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=90 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Assassins-generated-files.hmap -I/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Assassins-own-target-headers.hmap -I/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Assassins-all-target-headers.hmap -iquote /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/Assassins-project-headers.hmap -I/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/include -I/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/usr/local/lib/include -I/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/UninstalledProducts/include -I/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator -I/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/DerivedSources/i386 -I/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/Assassins.build/Debug-iphonesimulator/Assassins.build/DerivedSources -F/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator --serialize-diagnostics /var/folders/6h/nspwrwvn4l9bl2xrrl_qgc1h0000gq/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Assassins-Prefix-czqhurjnqkyocyargqkjbgxzqbyu/Assassins-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/6h/nspwrwvn4l9bl2xrrl_qgc1h0000gq/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Assassins-Prefix-czqhurjnqkyocyargqkjbgxzqbyu/Assassins-Prefix.pch.d -c /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/Assassins/Assassins-Prefix.pch -o /var/folders/6h/nspwrwvn4l9bl2xrrl_qgc1h0000gq/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Assassins-Prefix-czqhurjnqkyocyargqkjbgxzqbyu/Assassins-Prefix.pch.pch36"0DD64452-314D-444C-B193-B5E77DB80125-
+b28212108-B788-4781-A204-8862CD5ACCE9
+
+CTouch /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app
+s416353775.924620
+e416353775.931500
+r1
+xTouch
+x/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Touch /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app42"[1mTouch[0m build/emulator/Assassins.appe1cfecef0dd1b841^7975eeef0dd1b841^---0#0#1#--908"[1mTouch[0m build/emulator/Assassins.app    cd /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Developer/NVIDIA/CUDA-5.5/bin:/usr/local/Cellar/grails/2.2.4/libexec/usr/local/bin:/bin:/usr/local/sbin/:/usr/local/mysql/bin:/Users/zixiao/Dropbox/Python_Programs:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/texbin:/Users/zixiao/devtools/autotools-bin/bin"    /usr/bin/touch -c /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/assassinsFrontend/platforms/ios/build/emulator/Assassins.app36"F563F929-F8AE-40F8-B8F3-1E19C85A8926-
+b28212108-B788-4781-A204-8862CD5ACCE9
+
