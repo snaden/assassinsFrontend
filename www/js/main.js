@@ -12,7 +12,7 @@ $(document).ready(function() {
             dataType: 'json',
             success: function(data) {
                 if (data.status === true) {
-                    document.location='http://www.epa.gov/';
+                    document.location='./selectGameScreen.html';
                 } else {
                     alert(data.status);
                 }
