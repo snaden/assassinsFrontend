@@ -54,6 +54,13 @@ a:active {color: #ffffff;}  /* selected link */
 
 }
 
+.text.submit{
+	border-style: none;
+	font-size: 10px;
+	background-color: #ff0000;
+	padding: 5px;
+}
+
 .mascot{
 	text-align: center;
 }
