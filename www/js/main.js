@@ -11,10 +11,14 @@ $(document).ready(function() {
             contentType:'application/json; charset=UTF-8',
             dataType: 'json',
             success: function(data) {
-                console.log(data);
+                if (data.status === true) {
+                    document.location='http://www.epa.gov/';
+                } else {
+                    alert(data.status);
+                }
             },
             error: function () {
-                console.log(data[status]);
+                console.log("Something's fundamentally wrong");
             }
         });
 
