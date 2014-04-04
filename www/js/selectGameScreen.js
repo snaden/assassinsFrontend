@@ -1,13 +1,17 @@
 $(document).ready(function() {
 
-   var games = {
-   		BattleRoyal : 20,
-   		MyGame : 5	
-   };  
-   for (var game in games){
-   		if(games.hasOwnProperty(game)){
-   			$("#gamePannel").append("<div class=\"text box\">Test</div>");
-   		}
-   }
+   var games;
+
+   $.getJSON("http://localhost:8080/api/list_games", function( response ){
+      games = response;
+      console.log(games);
+      for (var game in games){
+            if(games.hasOwnProperty(game)){
+               var $div = $("<div>", {id: game, class: "text box", text: games[game].title});
+               $("#gamePannel").append($div);
+            }
+      } 
+   });
    
+    
 });
