@@ -27,23 +27,32 @@ body{
 }
 
 .text.box{
+	height: 75%;
+	vertical-align: middle;
+	padding: 15px;
+	background-color: #000000;
+	border: 1px solid #ff0000;
     font-size: 20px;
     color: #ff0000;
     text-align: center;
     vertical-align: middle;
 }
 
-a:link {color:#FF0000;}      /* unvisited link */
-a:visited {color: #ff0000;}  /* visited link */
-a:hover {color: #ff0000;}  /* mouse over link */
-a:active {color: #ffffff;}  /* selected link */
-
+.pannel{
+	/*width: 95%;*/
+	height: 75%;
+	vertical-align: middle;
+	padding: 20px;
+	background-color: #282828;
+	border: 1px solid #000000;
+}
+/*
 .box{
     width:500px;
     height:75px;
     border:1px solid #000000;
     background-color: #282828;
-}
+}*/
 
 .text.input{
 	border-style: none;
@@ -54,8 +63,44 @@ a:active {color: #ffffff;}  /* selected link */
 
 }
 
+.text.submit{
+	border-style: none;
+	font-size: 10px;
+	background-color: #ff0000;
+	padding: 5px;
+}
+
+
 .mascot{
 	text-align: center;
 }
 
-/*testing*/
+/*#main_container{
+	width: 300px;
+	margin: 0px auto;
+}
+
+#game_list{
+	list-style-type: none;
+	padding: 0px 0px;
+}
+.game_item{
+	margin: 0px 0px;
+	width: 300px;
+	height: 50px;
+	text-align: center;
+}
+#back_login{
+	margin: 0px 0px;
+	width: 300px;
+	height: 50px;
+}
+#back_login a{
+	margin: 0px 0px;
+	text-align: center;
+	padding: auto auto;
+	width: 300px;
+}
+a.game_link{
+    text-decoration: none;
+}*/

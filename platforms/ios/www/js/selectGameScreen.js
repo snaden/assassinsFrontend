@@ -1,9 +1,13 @@
-/**
- * Created by SAM on 2/27/14.
- */
+$(document).ready(function() {
 
-function myFunction()
-{
-//    document.getElementById("demo").innerHTML = Date();
-    document.querySelectorAll(".gameButton").innerHTML = Date();
-}
+   var games = {
+   		BattleRoyal : 20,
+   		MyGame : 5	
+   };  
+   for (var game in games){
+   		if(games.hasOwnProperty(game)){
+   			$("#gamePannel").append("<div class=\"text box\">Test</div>");
+   		}
+   }
+   
+});
