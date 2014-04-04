@@ -1,19 +1,17 @@
 $(document).ready(function() {
 
-   var games = {
-   		BattleRoyal : 20,
-   		MyGame : 5,	
-         AnotherGame : 8,
-         YetAnotherGame: 60,
-         Game : 15
-   };  
+   var games;
 
-   for (var game in games){
-   		if(games.hasOwnProperty(game)){
-   		   var $div = $("<div>", {id: game, class: "text box", text: game});
-            $("#gamePannel").append($div);
-
-         }
-   }
+   $.getJSON("http://localhost:8080/api/list_games", function( response ){
+      games = response;
+      console.log(games);
+      for (var game in games){
+            if(games.hasOwnProperty(game)){
+               var $div = $("<div>", {id: game, class: "text box", text: games[game].title});
+               $("#gamePannel").append($div);
+            }
+      } 
+   });
    
+    
 });
