@@ -110,6 +110,12 @@ body{
 	padding: auto auto;
 	width: 300px;
 }*/
+a{
+	color: #ff0000;
+}
 a.game_link{
+    text-decoration: none;
+}
+a.game_item{
     text-decoration: none;
 }

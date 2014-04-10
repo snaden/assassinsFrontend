@@ -13,25 +13,29 @@ $(document).ready(function() {
       console.log(games);
       for (var game in games){
             if(games.hasOwnProperty(game)){
-               var anchor = $("<a>", {id: game, class: "gameItem", text: games[game].title})
+               var anchor = $("<a>", {id: game, class: "game_item", text: games[game].title, href: './gameStatsScreen.html'})
                var div = $("<div>", {class: "text box"});
                div.append(anchor);
                $("#gamePannel").append(div);
                //We class need to setup the click listener
-               $(".gameItem").on("click", function(e){
-                  var game_id = $(this).id;
-                  console.log(game_id);
-
-               });
+               setupGameStatsRedirect()
             }
       } 
    });
-
 
    $("#logout").on("click", function(e){
       //Clear User Info
       localStorage.removeItem("user");
    });
+
+   var setupGameStatsRedirect = function(){
+      $(".game_item").on("click", function(e){
+         var game_id = $(this).attr("id");
+         alert(game_id);
+         //Storing Game
+         localStorage.setItem("game", game_id);
+      });
+   }
    
     
 });
