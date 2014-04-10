@@ -1,4 +1,10 @@
 $(document).ready(function() {
+    //redirect if the user is already logged in
+       var user = localStorage.getItem("user");
+       if(user != null){ //user does exist!
+         document.location='./selectGameScreen.html';
+       } 
+
     $("#loginForm").submit(function(event) {
 
         var $form = $(this);
@@ -13,6 +19,9 @@ $(document).ready(function() {
             dataType: 'json',
             success: function(data) {
                 if (data.status === true) {
+                    //Puting user in localStorage
+                    localStorage.setItem("user", u);
+                    //Redirect to the selectGameScreen page
                     document.location='./selectGameScreen.html';
                 } else {
                     alert(data.status);
