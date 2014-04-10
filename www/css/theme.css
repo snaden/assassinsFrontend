@@ -26,8 +26,12 @@ body{
 	color: #ff0000;
 }
 
+.text.label.target{
+	text-align: center;
+}
+
 .text.box{
-	height: 75%;
+	/*height: 75%;*/
 	vertical-align: middle;
 	padding: 15px;
 	background-color: #000000;
@@ -40,7 +44,7 @@ body{
 
 .pannel{
 	/*width: 95%;*/
-	height: 75%;
+	/*height: 75%;*/
 	vertical-align: middle;
 	padding: 20px;
 	background-color: #282828;
@@ -75,6 +79,11 @@ body{
 	text-align: center;
 }
 
+#target{
+	font-weight: bold;
+	font-size: 50px;
+}
+
 /*#main_container{
 	width: 300px;
 	margin: 0px auto;
@@ -100,7 +109,7 @@ body{
 	text-align: center;
 	padding: auto auto;
 	width: 300px;
-}
+}*/
 a.game_link{
     text-decoration: none;
-}*/
+}
