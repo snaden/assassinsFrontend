@@ -31,7 +31,6 @@ $(document).ready(function() {
    var setupGameStatsRedirect = function(){
       $(".game_item").on("click", function(e){
          var game_id = $(this).attr("id");
-         alert(game_id);
          //Storing Game
          localStorage.setItem("game", game_id);
       });
