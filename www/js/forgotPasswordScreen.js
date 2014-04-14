@@ -27,7 +27,9 @@ function popUp(){
 
 
     console.log(document.body.childNodes.length)
-    if(document.body.childNodes.length<12){
+    if(document.body.childNodes.length<12 && document.getElementById('input').value!=""){
         document.body.appendChild(popup);
     }
+
+    console.log(document.getElementById('input').value)
 }
