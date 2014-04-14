@@ -23,5 +23,11 @@ function popUp(){
     message.innerHTML = "An email has been sent to you with new password information.";
     popup.appendChild(message);
     popup.appendChild(cancel);
-    document.body.appendChild(popup);
+    //document.body.appendChild(popup);
+
+
+    console.log(document.body.childNodes.length)
+    if(document.body.childNodes.length<12){
+        document.body.appendChild(popup);
+    }
 }
