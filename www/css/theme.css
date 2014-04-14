@@ -2,8 +2,6 @@ body{
 	background-color: #181818;
 }
 
-
-
 .text{
 	display: block;
 	font-weight: normal;
@@ -84,6 +82,10 @@ body{
 	font-size: 50px;
 }
 
+#game-status-dead{
+	display: none; /* players are alive by default*/
+}
+
 /*#main_container{
 	width: 300px;
 	margin: 0px auto;
@@ -110,6 +112,7 @@ body{
 	padding: auto auto;
 	width: 300px;
 }*/
+
 a{
 	color: #ff0000;
 }

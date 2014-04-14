@@ -3,20 +3,32 @@
 <head>
     <title>GAME STATS</title>
       <link rel="stylesheet" href="css/theme.css">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" charset="utf-8" src="js/gameStatsScreen.js"></script>
 </head>
 <body>
 <div class="text headline" id="GameTitle"></div>
 <br/>
-<div class = "text label target">
-    Your Target: <SPAN class="text headline" id="target">Yulun Li</SPAN> <br>
-    Time Remaining: <SPAN class="text instructions" id="countdown-clock">00:01:14:04</SPAN>
-</div>
-<br/>
+<div id="game-status-alive">
+	<div class = "text label target">
+	    Your Target: <SPAN class="text headline" id="target"></SPAN> <br>
+	    Time Remaining: <SPAN class="text instructions" id="countdown-clock">00:01:14:04</SPAN>
+	</div>
+	<br/>
 
-<div class="mascot">
-    <img height="100" src="img/mascot.png">
+	<div class="mascot">
+	    <img height="100" src="img/mascot.png">
+	</div>
+</div>
+<div id="game-status-dead">
+	<div class = "text label target">
+		<SPAN class="text headline">Sorry, You are dead. </SPAN> <br />
+		<SPAN class="text headline">No target for you.</SPAN>
+	</div>
+	<div class="mascot"> <!-- Change this into the dead mascot -->
+	    <img height="100" src="img/mascot.png">
+	</div>
 </div>
 
 <!-- <div class = "pannel">
@@ -24,7 +36,7 @@
 </div> -->
 
 <div class="pannel">
-    <a class = "game_link text box" href="selectGameScreen.html">Back to Game Select</a>
+    <a class = "game_link text box" href="selectGameScreen.html" id="game_select_redirect">Back to Game Select</a>
 </div>
 
 </body>

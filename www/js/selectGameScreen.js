@@ -8,7 +8,9 @@ $(document).ready(function() {
    } 
 
    //take a look at underscore.js for the utility functions
-   $.getJSON("http://localhost:8080/api/list_games", function(response){
+   var request_url = _app_base+"/api/list_games";
+   var request_data = {username:user};
+   $.getJSON(request_url, request_data, function(response){
       var games = response;
       console.log(games);
       for (var game in games){
@@ -26,6 +28,7 @@ $(document).ready(function() {
    $("#logout").on("click", function(e){
       //Clear User Info
       localStorage.removeItem("user");
+      localStorage.removeItem("game");
    });
 
    var setupGameStatsRedirect = function(){
