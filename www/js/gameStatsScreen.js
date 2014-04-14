@@ -84,5 +84,4 @@ $(document).ready(function() {
     $("#game_select_redirect").on("click",function(){
     	cleanUp();
     });
-
 });
