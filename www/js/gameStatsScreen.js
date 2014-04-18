@@ -57,10 +57,10 @@ $(document).ready(function() {
      if(response["in_game"]){
         updateTargetInfo(response["target"]);
      }else{
-      var images = ['<img src="img/dead1.png" />',
-      '<img src="img/dead2.png" />',
-      '<img src="img/dead3.png" />',
-      '<img src="img/dead4.png" />'];
+      var images = ['<img  height="150" src="img/dead1.png" />',
+      '<img height="150" src="img/dead2.png" />',
+      '<img height="150" src="img/dead3.png" />',
+      '<img height="150" src="img/dead4.png" />'];
       var image = images[Math.floor(Math.random() * images.length)];
         $("#game-status-dead").css("display","block");
         $('#game-status-dead').prepend(image);
