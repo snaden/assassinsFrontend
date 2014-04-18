@@ -84,6 +84,7 @@ body{
 
 #game-status-dead{
 	display: none; /* players are alive by default*/
+	text-align: center;
 }
 
 /*#main_container{
