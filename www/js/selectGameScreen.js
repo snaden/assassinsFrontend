@@ -8,7 +8,7 @@ $(document).ready(function() {
    } 
 
    //take a look at underscore.js for the utility functions
-   var request_url = _app_base+"/api/list_games";
+   var request_url = _app_base+"/api/games";
    var request_data = {username:user};
 
    $.getJSON(request_url, request_data, function(response){
