@@ -12,14 +12,14 @@ $(document).ready(function() {
   var cleanUp = function(){ 
     //cleaning up before redirect
     localStorage.removeItem("game");
-  }
+  };
 
   var handle_error = function(ex){
     //TODO: decide how to handle errors
     console.log(ex);
     cleanUp();
     document.location='./selectgamescreen.html';
-  }
+  };
 
   // getting ready to find status
   // example: http://localhost:8080/api/game_player_status?username=u1&game_id=4925812092436480
@@ -37,8 +37,8 @@ $(document).ready(function() {
   $.getJSON(game_url, {game_id:game_id}, function(response){
     console.log(response);
     if(response["success"]){
-      gameInfo = response["info"];
-      updateGameInfo(gameInfo)
+      var gameInfo = response["info"]["survivors"];
+      updateGameInfo(gameInfo);
     } else { // no such game
       var msg = "Variable game_id on page, but no id in the database";
       handle_error(msg);
@@ -69,15 +69,15 @@ $(document).ready(function() {
   });
 
   var updateGameInfo = function(gameInfo){
-    //TODO: Implement here to update gameInfo
-  }
+    $("#survivors").text(gameInfo);
+  };
 
   var updateTargetInfo = function(targetName){
     //Update username on display
     $("#target").text(targetName);
 
 
-  }
+  };
 
   $("#game_select_redirect").on("click",function(){
     cleanUp();
