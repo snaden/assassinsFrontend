@@ -2,24 +2,10 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="css/theme.css">
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script>
-			$( document ).ready(function(){
-				$.ajax({
-					type: 'POST',
-					url: 'http://localhost:8080/my_service',
-					crossDomain: true,
-					data: '{"some":"json"}',
-					dataType: 'json',
-					success: function(responseData, textStatus, jqXHR) {
-						var value = responseData.someKey;
-					},
-					error: function (responseData, textStatus, errorThrown) {
-						alert('POST failed.');
-					}
-				});
-			});
-		</script>
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
+	    <script src="js/jquery-1.11.0.min.js"></script>
+	    <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/login.js"></script>
 	</head>
 	<body>
 		<div class="text headline">ASSASSINS</div>
@@ -27,12 +13,13 @@
 			<img height="100" src="img/mascot.png">
 		</div>
 		<div class="text instructions">LOG IN</div>
-		<div class="text label">USER</div> <input class="text input" type="text" name="username"></input>
-		<div class="text label">PASS</div> <input class="text input" type="password" name="password"></input>
-		<div class="text instructions link">
-			<a href="place.html">
-			</a>
-		</div>
+			<form id="loginForm">
+				<div class="text label">USER</div> 
+				<input id="username" class="text input" type="text" name="username"/>
+				<div class="text label">PASS</div>
+                <input id="password" class="text input" type="password" name="password"/>
+				<input type="submit" class="text submit" value="Login" id="submitButton"/>
+			</form>
         <div class="text instructions">
             <a class = "text instructions" href = "forgotPasswordScreen.html">
                 Forgot Password?
@@ -41,5 +28,4 @@
         </div>
 
 	</body>
-<!--testing-->
 </html>

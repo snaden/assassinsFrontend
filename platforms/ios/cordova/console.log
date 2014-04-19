@@ -183,3 +183,74 @@
 2014-03-24 12:56:49.204 HelloWorld[7717:3f03] ERROR whitelist rejection: url='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'
 2014-03-24 12:56:49.205 HelloWorld[7717:3f03] ERROR whitelist rejection: url='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'
 2014-03-24 12:56:49.220 HelloWorld[7717:70b] Finished load of: file:///Users/zixiao/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/6A5B5527-64EF-45F2-8C73-056B458448D8/HelloWorld.app/www/login.html
+2014-03-28 12:53:31.308 HelloWorld[1545:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-28 12:53:31.755 HelloWorld[1545:70b] Resetting plugins due to page load.
+2014-03-28 12:53:31.806 HelloWorld[1545:3f03] ERROR whitelist rejection: url='http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css'
+2014-03-28 12:53:31.807 HelloWorld[1545:3f03] ERROR whitelist rejection: url='http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css'
+2014-03-28 12:53:31.807 HelloWorld[1545:3f03] ERROR whitelist rejection: url='http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css'
+2014-03-28 12:53:31.808 HelloWorld[1545:3f03] ERROR whitelist rejection: url='http://code.jquery.com/jquery-1.9.1.min.js'
+2014-03-28 12:53:31.809 HelloWorld[1545:3f03] ERROR whitelist rejection: url='http://code.jquery.com/jquery-1.9.1.min.js'
+2014-03-28 12:53:31.809 HelloWorld[1545:3f03] ERROR whitelist rejection: url='http://code.jquery.com/jquery-1.9.1.min.js'
+2014-03-28 12:53:31.850 HelloWorld[1545:70b] Finished load of: file:///Users/zixiao/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/6A5B5527-64EF-45F2-8C73-056B458448D8/HelloWorld.app/www/index.html
+2014-03-28 12:53:34.485 HelloWorld[1545:70b] Resetting plugins due to page load.
+2014-03-28 12:53:34.490 HelloWorld[1545:3f03] ERROR whitelist rejection: url='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'
+2014-03-28 12:53:34.491 HelloWorld[1545:3f03] ERROR whitelist rejection: url='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'
+2014-03-28 12:53:34.491 HelloWorld[1545:3f03] ERROR whitelist rejection: url='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'
+2014-03-28 12:53:34.492 HelloWorld[1545:3f03] ERROR whitelist rejection: url='http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css'
+2014-03-28 12:53:34.492 HelloWorld[1545:3f03] ERROR whitelist rejection: url='http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css'
+2014-03-28 12:53:34.493 HelloWorld[1545:3f03] ERROR whitelist rejection: url='http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css'
+2014-03-28 12:53:34.493 HelloWorld[1545:3f03] ERROR whitelist rejection: url='http://code.jquery.com/jquery-1.9.1.min.js'
+2014-03-28 12:53:34.494 HelloWorld[1545:3f03] ERROR whitelist rejection: url='http://code.jquery.com/jquery-1.9.1.min.js'
+2014-03-28 12:53:34.494 HelloWorld[1545:3f03] ERROR whitelist rejection: url='http://code.jquery.com/jquery-1.9.1.min.js'
+2014-03-28 12:53:34.511 HelloWorld[1545:70b] Finished load of: file:///Users/zixiao/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/6A5B5527-64EF-45F2-8C73-056B458448D8/HelloWorld.app/www/login.html
+2014-03-28 12:54:00.360 HelloWorld[1545:70b] Resetting plugins due to page load.
+2014-03-28 12:54:00.381 HelloWorld[1545:3f03] ERROR whitelist rejection: url='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'
+2014-03-28 12:54:00.382 HelloWorld[1545:3f03] ERROR whitelist rejection: url='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'
+2014-03-28 12:54:00.382 HelloWorld[1545:3f03] ERROR whitelist rejection: url='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'
+2014-03-28 12:54:00.384 HelloWorld[1545:3f03] ERROR whitelist rejection: url='http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css'
+2014-03-28 12:54:00.384 HelloWorld[1545:3f03] ERROR whitelist rejection: url='http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css'
+2014-03-28 12:54:00.385 HelloWorld[1545:3f03] ERROR whitelist rejection: url='http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css'
+2014-03-28 12:54:00.386 HelloWorld[1545:3f03] ERROR whitelist rejection: url='http://code.jquery.com/jquery-1.9.1.min.js'
+2014-03-28 12:54:00.386 HelloWorld[1545:3f03] ERROR whitelist rejection: url='http://code.jquery.com/jquery-1.9.1.min.js'
+2014-03-28 12:54:00.387 HelloWorld[1545:3f03] ERROR whitelist rejection: url='http://code.jquery.com/jquery-1.9.1.min.js'
+2014-03-28 12:54:00.391 HelloWorld[1545:70b] Finished load of: file:///Users/zixiao/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/6A5B5527-64EF-45F2-8C73-056B458448D8/HelloWorld.app/www/login.html?username=Admin&password=default
+2014-03-28 12:54:02.638 HelloWorld[1545:70b] Resetting plugins due to page load.
+2014-03-28 12:54:02.641 HelloWorld[1545:3f03] ERROR whitelist rejection: url='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'
+2014-03-28 12:54:02.642 HelloWorld[1545:3f03] ERROR whitelist rejection: url='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'
+2014-03-28 12:54:02.642 HelloWorld[1545:3f03] ERROR whitelist rejection: url='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'
+2014-03-28 12:54:02.643 HelloWorld[1545:3f03] ERROR whitelist rejection: url='http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css'
+2014-03-28 12:54:02.644 HelloWorld[1545:3f03] ERROR whitelist rejection: url='http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css'
+2014-03-28 12:54:02.644 HelloWorld[1545:3f03] ERROR whitelist rejection: url='http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css'
+2014-03-28 12:54:02.645 HelloWorld[1545:3f03] ERROR whitelist rejection: url='http://code.jquery.com/jquery-1.9.1.min.js'
+2014-03-28 12:54:02.645 HelloWorld[1545:3f03] ERROR whitelist rejection: url='http://code.jquery.com/jquery-1.9.1.min.js'
+2014-03-28 12:54:02.646 HelloWorld[1545:3f03] ERROR whitelist rejection: url='http://code.jquery.com/jquery-1.9.1.min.js'
+2014-03-28 12:54:02.648 HelloWorld[1545:70b] Finished load of: file:///Users/zixiao/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/6A5B5527-64EF-45F2-8C73-056B458448D8/HelloWorld.app/www/login.html?username=&password=
+objc[5514]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-04-13 22:10:22.669 HelloWorld[5514:70b] Cannot find executable for CFBundle 0xa83a110 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-04-13 22:10:22.678 HelloWorld[5514:70b] Cannot find executable for CFBundle 0xa54e8f0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-04-13 22:10:22.703 HelloWorld[5514:70b] Multi-tasking -> Device: YES, App: YES
+2014-04-13 22:10:23.051 HelloWorld[5514:70b] Resetting plugins due to page load.
+2014-04-13 22:10:23.114 HelloWorld[5514:4107] ERROR whitelist rejection: url='http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css'
+2014-04-13 22:10:23.115 HelloWorld[5514:4107] ERROR whitelist rejection: url='http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css'
+2014-04-13 22:10:23.115 HelloWorld[5514:4107] ERROR whitelist rejection: url='http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css'
+2014-04-13 22:10:23.116 HelloWorld[5514:4107] ERROR whitelist rejection: url='http://code.jquery.com/jquery-1.9.1.min.js'
+2014-04-13 22:10:23.116 HelloWorld[5514:4107] ERROR whitelist rejection: url='http://code.jquery.com/jquery-1.9.1.min.js'
+2014-04-13 22:10:23.117 HelloWorld[5514:4107] ERROR whitelist rejection: url='http://code.jquery.com/jquery-1.9.1.min.js'
+2014-04-13 22:10:23.147 HelloWorld[5514:70b] Finished load of: file:///Users/zixiao/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/6A5B5527-64EF-45F2-8C73-056B458448D8/HelloWorld.app/www/index.html
+2014-04-13 22:10:24.963 HelloWorld[5514:70b] Resetting plugins due to page load.
+2014-04-13 22:10:24.969 HelloWorld[5514:4107] ERROR whitelist rejection: url='http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css'
+2014-04-13 22:10:24.969 HelloWorld[5514:4107] ERROR whitelist rejection: url='http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css'
+2014-04-13 22:10:24.969 HelloWorld[5514:4107] ERROR whitelist rejection: url='http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css'
+2014-04-13 22:10:25.031 HelloWorld[5514:70b] Finished load of: file:///Users/zixiao/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/6A5B5527-64EF-45F2-8C73-056B458448D8/HelloWorld.app/www/login.html
+2014-04-13 22:10:38.667 HelloWorld[5514:4107] ERROR whitelist rejection: url='http://localhost:8080//api/rest_login'
+2014-04-13 22:10:38.667 HelloWorld[5514:4107] ERROR whitelist rejection: url='http://localhost:8080//api/rest_login'
+2014-04-13 22:10:38.668 HelloWorld[5514:4107] ERROR whitelist rejection: url='http://localhost:8080//api/rest_login'
+2014-04-13 22:10:41.100 HelloWorld[5514:4107] ERROR whitelist rejection: url='http://localhost:8080//api/rest_login'
+2014-04-13 22:10:41.101 HelloWorld[5514:4107] ERROR whitelist rejection: url='http://localhost:8080//api/rest_login'
+2014-04-13 22:10:41.101 HelloWorld[5514:4107] ERROR whitelist rejection: url='http://localhost:8080//api/rest_login'
+2014-04-13 22:10:45.375 HelloWorld[5514:4107] ERROR whitelist rejection: url='http://localhost:8080//api/rest_login'
+2014-04-13 22:10:45.376 HelloWorld[5514:4107] ERROR whitelist rejection: url='http://localhost:8080//api/rest_login'
+2014-04-13 22:10:45.377 HelloWorld[5514:4107] ERROR whitelist rejection: url='http://localhost:8080//api/rest_login'
+2014-04-13 22:10:48.711 HelloWorld[5514:4107] ERROR whitelist rejection: url='http://localhost:8080//api/rest_login'
+2014-04-13 22:10:48.712 HelloWorld[5514:4107] ERROR whitelist rejection: url='http://localhost:8080//api/rest_login'
+2014-04-13 22:10:48.712 HelloWorld[5514:4107] ERROR whitelist rejection: url='http://localhost:8080//api/rest_login'

@@ -7,6 +7,7 @@ $(document).ready(function() {
 
     $("#loginForm").submit(function(event) {
 
+        var $form = $(this);
         var u = $("#username").val();
         var p = $("#password").val();
 
