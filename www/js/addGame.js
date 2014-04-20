@@ -60,7 +60,9 @@ $(document).ready(function() {
    var addGameWithInfo = function(gameInfo){
    		if(gameInfo.title == "") //make sure we have a name
    			alert("Please enter a name for the game");
-   		var addGameUrl = _app_base+"/api/games/";
+   		var addGameUrl = _app_base+"/api/games";
+   		//var data = '{"players":["u1", "u2"], "title": "no_duplicate}';
+   		console.log(JSON.stringify(gameInfo));
 
         $.ajax({
             url : addGameUrl,
@@ -69,13 +71,12 @@ $(document).ready(function() {
             contentType:'application/json; charset=UTF-8',
             dataType: 'json',
             success: function(data) {
-            	console.log(data);
-                // if (data.success === true) {
-                // 	//redirect
-
-                // } else {
-                //     alert("Unable to create game at this time");
-                // }
+                if (data.success === true) {
+                	//redirect back to selectGameScreen
+                	document.location = './selectGameScreen.html';
+                } else {
+                    alert("Unable to create game at this time");
+                }
             },
             error: function () {
                 console.log("Something's fundamentally wrong");
