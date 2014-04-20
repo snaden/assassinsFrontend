@@ -15,14 +15,15 @@
 	<div class = "text label target">
 	    Your Target: <SPAN class="text headline" id="target"></SPAN> <br>
 	    Time Remaining: <SPAN class="text instructions" id="countdown-clock">00:01:14:04</SPAN>
+	    <br/><br/>
 	    Remaining Players: <SPAN class="text headline" id="survivors"></SPAN>
 	</div>
 	<br/>
-
-
 	<div class="mascot">
 	    <img height="100" src="img/mascot.png">
+	    <SPAN class="text label">Click Me to Verify Kill</SPAN>
 	</div>
+	<br />
 </div>
 <div id="game-status-dead">
 	<div class = "text label target">
@@ -30,8 +31,7 @@
 		<SPAN class="text headline">You're <b>dead</b>.</SPAN> <br />
 		<SPAN class="text instructions">No target for you.</SPAN>
 	</div>
-	<div class="mascot"> <!-- Change this into the dead mascot -->
-	    
+	<div class="mascot"> <!-- Change this into the dead mascot -->   
 	</div>
 </div>
 
@@ -40,6 +40,8 @@
 </div> -->
 
 <div class="pannel">
+	 <a class = "game_link text box" href="verifyKill.html" id="verify_kill_redirect">I Died</a>
+	 <br/>
     <a class = "game_link text box" href="selectGameScreen.html" id="game_select_redirect">Back to Game Select</a>
 </div>
 
