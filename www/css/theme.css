@@ -91,6 +91,9 @@ body{
 	text-align: left;
 }
 
+#save_game_box input{
+	text-align: center;
+}
 /*#main_container{
 	width: 300px;
 	margin: 0px auto;
