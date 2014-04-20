@@ -32,6 +32,11 @@ $(document).ready(function() {
       localStorage.removeItem("game");
    });
 
+   $("#add_game").on("click", function(e){
+      //Clear Game Info
+      localStorage.removeItem("game");
+   });
+
    var setupGameStatsRedirect = function(){
       $(".game_item").on("click", function(e){
          var game_id = $(this).attr("id");

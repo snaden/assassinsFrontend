@@ -33,8 +33,8 @@ $(document).ready(function() {
   } 
 
   //requesting game
-  var game_url = _app_base+"/api/game_info";
-  $.getJSON(game_url, {game_id:game_id}, function(response){
+  var game_url = _app_base+"/api/games/" + game_id;
+  $.getJSON(game_url, function(response){
     console.log(response);
     if(response["success"]){
       var gameInfo = response["info"]["survivors"];

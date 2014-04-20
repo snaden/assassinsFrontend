@@ -85,6 +85,10 @@ body{
 	text-align: center;
 }
 
+#add_game_form div{
+	text-align: left;
+}
+
 #verify-kill-form { 
 margin: 0 auto; 
 width:160px;
