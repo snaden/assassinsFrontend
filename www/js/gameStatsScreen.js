@@ -63,21 +63,28 @@ $(document).ready(function() {
       '<img height="150" src="img/dead4.png" />'];
       var image = images[Math.floor(Math.random() * images.length)];
         $("#game-status-dead").css("display","block");
+        $('#kill-verification').css("display", "none")
         $('#game-status-dead').prepend(image);
         $("#game-status-alive").css("display","none");
      }
   });
 
-  var updateGameInfo = function(gameInfo){
-    $("#survivors").text(gameInfo);
-  };
+  // var updateGameInfo = function(gameInfo){
+  //   $("#survivors").text(gameInfo);
+  // };
 
   var updateTargetInfo = function(targetName){
     //Update username on display
     $("#target").text(targetName);
-
-
   };
+
+  $("#killer-mascot").on("click",function(){
+      $("#verify-kill").toggle("fast");
+  });
+
+  $("#i-died").on("click", function(){
+     $("#display-kill-code").toggle("fast");
+  })
 
   $("#game_select_redirect").on("click",function(){
     cleanUp();

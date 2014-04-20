@@ -20,11 +20,22 @@
 	</div>
 	<br/>
 	<div class="mascot">
-	    <img height="100" src="img/mascot.png">
-	    <SPAN class="text label">Click Me to Verify Kill</SPAN>
+		<a  id="killer-mascot">
+	   		<img height="100" src="img/mascot.png">
+	   		<SPAN class="text label">Click Me to Verify Kill</SPAN>
+		</a>
 	</div>
 	<br />
 </div>
+
+<div id="verify-kill">
+	<form id="verify-kill-form">
+		<div class="text label">Enter Kill Code</div> 
+		<input id="killCode" class="text input" type="text" name="killCode"/>
+		<input type="submit" class="text submit" value="KILL" id="submitButton"/>
+	</form>
+</div>
+
 <div id="game-status-dead">
 	<div class = "text label target">
 		<SPAN class="text instructions">Don't know how to tell you this, but... </SPAN> <br />
@@ -35,13 +46,19 @@
 	</div>
 </div>
 
+
 <!-- <div class = "pannel">
     <a class = "game_link text box" href = "http://www.google.com/">Who is still alive?</a>
 </div> -->
 
 <div class="pannel">
-	 <a class = "game_link text box" href="verifyKill.html" id="verify_kill_redirect">I Died</a>
-	 <br/>
+	<div class = "text box">
+		<a id="i-died">I've Been Killed</a>
+	</div>
+	<div id="display-kill-code" class="text label">Give Your Killer this Code: <SPAN class="text instructions" id="kill-code">sdhsdhkfd</SPAN>
+	</div>
+
+	<br/>
     <a class = "game_link text box" href="selectGameScreen.html" id="game_select_redirect">Back to Game Select</a>
 </div>
 
