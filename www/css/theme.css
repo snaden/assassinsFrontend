@@ -87,6 +87,10 @@ body{
 	text-align: center;
 }
 
+#add_game_form div{
+	text-align: left;
+}
+
 /*#main_container{
 	width: 300px;
 	margin: 0px auto;
