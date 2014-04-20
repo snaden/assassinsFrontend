@@ -38,7 +38,7 @@ $(document).ready(function() {
     console.log(response);
     if(response["success"]){
       var gameInfo = response["info"]["survivors"];
-      updateGameInfo(gameInfo);
+      // updateGameInfo(gameInfo);
     } else { // no such game
       var msg = "Variable game_id on page, but no id in the database";
       handle_error(msg);
@@ -84,6 +84,23 @@ $(document).ready(function() {
 
   $("#i-died").on("click", function(){
      $("#display-kill-code").toggle("fast");
+  });
+
+  $("#verify-kill-form").submit(function(event){
+      var killCode = $("#kill-code").val();
+      console.log(killCode);
+      // $.ajax({
+      //    url : _app_base+"/api/kill",
+      //    data : {game_id: game_id, username: targetName, msg: killCode},
+      //    type : POST,
+      //    success : function(data){
+      //       alert("API call is ok!");
+      //    }
+      // });
+      $.post(_app_base+"/api/kill", JSON.stringify({game_id: game_id, username: targetName, msg: killCode}), function(response){
+         console.log("success!"); 
+      });
+
   })
 
   $("#game_select_redirect").on("click",function(){
