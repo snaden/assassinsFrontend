@@ -56,6 +56,7 @@ $(document).ready(function() {
      console.log(player_status);
      if(response["in_game"]){
         updateTargetInfo(response["target"]);
+        updateKillCode(response["msg"]);
      }else{
       var images = ['<img  height="150" src="img/dead1.png" />',
       '<img height="150" src="img/dead2.png" />',
@@ -78,6 +79,10 @@ $(document).ready(function() {
     $("#target").text(targetName);
   };
 
+  var updateKillCode = function(killCode){
+    $('#kill-code').text(killCode);
+  }
+
   $("#killer-mascot").on("click",function(){
       $("#verify-kill").toggle("fast");
   });
@@ -88,19 +93,11 @@ $(document).ready(function() {
 
   $("#verify-kill-form").submit(function(event){
       var killCode = $("#kill-code").val();
-      console.log(killCode);
-      // $.ajax({
-      //    url : _app_base+"/api/kill",
-      //    data : {game_id: game_id, username: targetName, msg: killCode},
-      //    type : POST,
-      //    success : function(data){
-      //       alert("API call is ok!");
-      //    }
-      // });
-      $.post(_app_base+"/api/kill", JSON.stringify({game_id: game_id, username: targetName, msg: killCode}), function(response){
-         console.log("success!"); 
+      $.post(_app_base+"/api/kill", 
+        JSON.stringify({game_id: game_id, username: targetName, msg: killCode}), 
+        function(response){
+         alert("API call is success!"); 
       });
-
   })
 
   $("#game_select_redirect").on("click",function(){
