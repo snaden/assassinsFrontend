@@ -9,6 +9,7 @@ $(document).ready(function() {
   //   document.getElementById("info").appendChild(popup);
   // }});
 
+  
   var cleanUp = function(){ 
     //cleaning up before redirect
     localStorage.removeItem("game");
@@ -37,8 +38,10 @@ $(document).ready(function() {
   $.getJSON(game_url, function(response){
     console.log(response);
     if(response["success"]){
-      var gameInfo = response["info"]["survivors"];
+      // var gameInfo = response["info"]["survivors"];
       // updateGameInfo(gameInfo);
+      var gameTitle = response["info"]["title"];
+      setTitle(gameTitle);
     } else { // no such game
       var msg = "Variable game_id on page, but no id in the database";
       handle_error(msg);
@@ -54,25 +57,35 @@ $(document).ready(function() {
   $.getJSON(request_url, request_data, function(response){
      var player_status = response;
      console.log(player_status);
-     if(response["in_game"]){
-        updateTargetInfo(response["target"]);
-        updateKillCode(response["msg"]);
-     }else{
-      var images = ['<img  height="150" src="img/dead1.png" />',
-      '<img height="150" src="img/dead2.png" />',
-      '<img height="150" src="img/dead3.png" />',
-      '<img height="150" src="img/dead4.png" />'];
-      var image = images[Math.floor(Math.random() * images.length)];
-        $("#game-status-dead").css("display","block");
-        $('#kill-verification').css("display", "none")
-        $('#game-status-dead').prepend(image);
-        $("#game-status-alive").css("display","none");
-     }
+     if(response["in_game"]){ //user is a part of game
+          if(response["target"] != null){
+            updateTargetInfo(response["target"]);
+            updateKillCode(response["msg"]);
+      }
+          else{ //user is dead
+            var images = ['<img  height="150" src="img/dead1.png" />',
+             '<img height="150" src="img/dead2.png" />',
+             '<img height="150" src="img/dead3.png" />',
+             '<img height="150" src="img/dead4.png" />'];
+            var image = images[Math.floor(Math.random() * images.length)];
+            $("#game-status-dead").css("display","block");
+            $('#kill-verification').css("display", "none")
+            $('#game-status-dead').prepend(image);
+            $("#game-status-alive").css("display","none");
+      }
+     }else{ //user was never in game, this shouldn't happen
+            alert("You're not in this game!");
+            document.location='./selectGameScreen.html';
+      }
   });
 
   // var updateGameInfo = function(gameInfo){
   //   $("#survivors").text(gameInfo);
   // };
+
+  var setTitle = function(title){
+    $("#GameTitle").text(title);
+  };
 
   var updateTargetInfo = function(targetName){
     //Update username on display
