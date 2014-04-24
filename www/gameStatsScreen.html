@@ -8,8 +8,9 @@
     <script type="text/javascript" charset="utf-8" src="js/gameStatsScreen.js"></script>
 </head>
 <body>
+<div class="text label title">Game:</div>
 <div class="text headline" id="GameTitle"></div>
-<br/>
+<br/> 
 
 <div id="game-status-alive">
 	<div class = "text label target">
@@ -30,7 +31,7 @@
 
 <div id="verify-kill">
 	<form id="verify-kill-form">
-		<div class="text label">Enter Kill Code</div> 
+		<div class="text label">Enter Kill Code (the code from your opponent)</div> 
 		<input id="killCode" class="text input" type="text" name="killCode"/>
 		<input type="submit" class="text submit" value="KILL" id="submitButton"/>
 	</form>
@@ -52,10 +53,11 @@
 </div> -->
 
 <div class="pannel">
-	<div class = "text box">
+	<div class = "text box" id="kill-verification">
 		<a id="i-died">I've Been Killed</a>
 	</div>
-	<div id="display-kill-code" class="text label">Give Your Killer this Code: <SPAN class="text instructions" id="kill-code">sdhsdhkfd</SPAN>
+
+	<div id="display-kill-code" class="text label">Give Your Killer this Code: <SPAN class="text instructions" id="kill-code"></SPAN>
 	</div>
 
 	<br/>
