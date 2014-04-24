@@ -52,3 +52,11 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
+
+$(document).ready(function() {
+    //check network
+
+    //redirect to login
+    document.location='./login.html';
+
+});
