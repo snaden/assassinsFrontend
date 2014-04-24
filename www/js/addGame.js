@@ -11,15 +11,12 @@ $(document).ready(function() {
    var request_url = _app_base+"/api/users";
 
    $.getJSON(request_url, function(response){
-		var users = response;
-		// console.log(users);
-  		for (var user in users){
-  		        if(users.hasOwnProperty(user)){
-  		        	// console.log(user);
-  		        	var userItem = $("<div>", {class: "checkList", text: user});
-  		        	$("#user_check_list").append(userItem);
-              }
-  		}
+       var users = response;
+       $.each(users, function() {
+//           console.log(this["username"]);
+           var userItem = $("<div>", {class: "checkList", text: this["username"]});
+           $("#user_check_list").append(userItem);
+       });
       toggleHighlight();
    });
 
