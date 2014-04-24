@@ -49,6 +49,18 @@ body{
 	border: 1px solid #000000;
 }
 
+.checkList{
+	vertical-align: middle;
+	padding: 10px;
+	background-color: #282828;
+	text-align: center;
+	border: 1px solid #000000;
+}
+
+.highlight{
+	border-color: #ff0000;
+}
+
 .text.input{
 	border-style: none;
 	font-size: 14px;
@@ -110,4 +122,8 @@ a.game_link{
 }
 a.game_item{
     text-decoration: none;
+}
+
+#user_check_list{
+	padding: 20px;
 }

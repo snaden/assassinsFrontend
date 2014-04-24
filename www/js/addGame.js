@@ -13,35 +13,34 @@ $(document).ready(function() {
    $.getJSON(request_url, function(response){
 		var users = response;
 		// console.log(users);
-		for (var user in users){
-		        if(users.hasOwnProperty(user)){
-		        	// console.log(user);
-		        	var userItem = $("<li>", {class: "text"});
-		        	var userText = $("<span>");
-		        	userText.append(user);
-		        	var userCheckBoxSpan = $("<span>");
-		        	var userCheckBox = 
-		        		$("<input>",{class: "select_user", type: "checkbox", value: user, name:"game_users"});
-		        	userCheckBoxSpan.append(userCheckBox);
-		        	userItem.append(userCheckBoxSpan);
-		        	userItem.append(userText);
-		        	$("#user_check_list").append(userItem);
-		        }
-		} 
+  		for (var user in users){
+  		        if(users.hasOwnProperty(user)){
+  		        	// console.log(user);
+  		        	var userItem = $("<div>", {class: "checkList", text: user});
+  		        	$("#user_check_list").append(userItem);
+              }
+  		}
+      toggleHighlight();
    });
+
+   var toggleHighlight = function(){ $(".checkList").on("click", function(){
+      console.log("things");
+      $( this ).toggleClass("highlight");   
+   })
+ };
 
    //Handles saving game
    $("#add_game_form").submit(function(e){
-		var gameName = $("#game_name").val(); //input for title param of API
-		var seletedUserBoxs = $('input:checkbox.select_user');
-   		console.log(gameName);
+		  var gameName = $("#game_name").val(); //input for title param of API
+   	  // console.log(gameName);
    		var selectedUsers = []; //input for players param of API
-   		seletedUserBoxs.each(function(){
-   			if(this.checked)
-   				selectedUsers.push($(this).val());
-   		})
-   		console.log(selectedUsers);
-
+   		$(".highlight").each(function(){
+        selectedUsers.push($(this).text())
+      })
+      // seletedUserBoxs.each(function(){
+   		// 	if(this.checked)
+   		// 		selectedUsers.push($(this).val());
+   		// })
    		// packing up data for addGameWithInfo function
    		var gameInfoData = {'title':gameName, 'players':selectedUsers};
 
