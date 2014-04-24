@@ -34,6 +34,11 @@ var app = {
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+        if (parseFloat(window.device.version) >= 7.0) {
+          document.body.style.marginTop = "50px";
+          // OR do whatever layout you need here, to expand a navigation bar etc
+        }
+        navigator.splashscreen.hide();
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
