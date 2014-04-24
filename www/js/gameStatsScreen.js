@@ -12,6 +12,7 @@ $(document).ready(function() {
   var cleanUp = function(){ 
     //cleaning up before redirect
     localStorage.removeItem("game");
+    localStorage.removeItem("target_name");
   };
 
   var handle_error = function(ex){
@@ -25,6 +26,7 @@ $(document).ready(function() {
   // example: http://localhost:8080/api/game_player_status?username=u1&game_id=4925812092436480
   var game_id = localStorage.getItem("game");
   var user = localStorage.getItem("user");
+  var target_name = localStorage.getItem("target_name")
   console.log(game_id);
   console.log(user);
   if(user == null || game_id == null){ //user does exist!
@@ -35,7 +37,7 @@ $(document).ready(function() {
   //requesting game
   var game_url = _app_base+"/api/games/" + game_id;
   $.getJSON(game_url, function(response){
-    console.log(response);
+//    console.log(response);
     if(response["success"]){
       var gameInfo = response["info"]["survivors"];
       // updateGameInfo(gameInfo);
@@ -53,7 +55,7 @@ $(document).ready(function() {
   var request_url = _app_base+"/api/game_player_status";
   $.getJSON(request_url, request_data, function(response){
      var player_status = response;
-     console.log(player_status);
+//     console.log(player_status);
      if(response["in_game"]){
         updateTargetInfo(response["target"]);
      }else{
@@ -63,7 +65,7 @@ $(document).ready(function() {
       '<img height="150" src="img/dead4.png" />'];
       var image = images[Math.floor(Math.random() * images.length)];
         $("#game-status-dead").css("display","block");
-        $('#kill-verification').css("display", "none")
+        $('#kill-verification').css("display", "none");
         $('#game-status-dead').prepend(image);
         $("#game-status-alive").css("display","none");
      }
@@ -76,6 +78,7 @@ $(document).ready(function() {
   var updateTargetInfo = function(targetName){
     //Update username on display
     $("#target").text(targetName);
+    localStorage.setItem("target", targetName)
   };
 
   $("#killer-mascot").on("click",function(){
@@ -87,19 +90,27 @@ $(document).ready(function() {
   });
 
   $("#verify-kill-form").submit(function(event){
-      var killCode = $("#kill-code").val();
-      console.log(killCode);
-      // $.ajax({
-      //    url : _app_base+"/api/kill",
-      //    data : {game_id: game_id, username: targetName, msg: killCode},
-      //    type : POST,
-      //    success : function(data){
-      //       alert("API call is ok!");
-      //    }
-      // });
-      $.post(_app_base+"/api/kill", JSON.stringify({game_id: game_id, username: targetName, msg: killCode}), function(response){
-         console.log("success!"); 
+      var killCode = $("#killCode").val();
+      var kill_url = _app_base + "api/kill";
+      var kill_data = JSON.stringify({game_id: game_id, username: user, msg: killCode});
+      $.ajax({
+          url: kill_url,
+          type: "POST",
+          data: kill_data,
+          contentType:'application/json; charset=UTF-8',
+          dataType: 'json',
+          success: function(response) {
+              if (response.success) {
+                  location.reload();
+              } else {
+                  alert(response.info);
+              }
+          },
+          error: function () {
+              console.log("Something's fundamentally wrong");
+          }
       });
+      event.preventDefault();
 
   })
 
