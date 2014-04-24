@@ -34,6 +34,7 @@ $(document).ready(function() {
    $("#logout").on("click", function(e){
       //Clear User Info
       localStorage.removeItem("user");
+      localStorage.removeItem("user_id");
       localStorage.removeItem("game");
    });
 
