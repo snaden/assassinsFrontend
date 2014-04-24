@@ -20,6 +20,7 @@ $(document).ready(function() {
                 if (data.status === true) {
                     //Puting user in localStorage
                     localStorage.setItem("user", u);
+                    localStorage.setItem("user_id", data.user_id);
                     //Redirect to the selectGameScreen page
                     document.location='./selectGameScreen.html';
                 } else {

@@ -8,10 +8,9 @@ $(document).ready(function() {
    } 
 
    //take a look at underscore.js for the utility functions
-   var request_url = _app_base+"/api/games";
-   var request_data = {username:user};
+   var request_url = _app_base+"api/games/players/" + localStorage.getItem("user_id");
 
-   $.getJSON(request_url, request_data, function(response){
+   $.getJSON(request_url, function(response){
       var games = response;
       console.log(games);
       for (var game in games){
