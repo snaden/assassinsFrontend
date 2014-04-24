@@ -1,9 +1,13 @@
 $(document).ready(function() {
     //redirect if the user is already logged in
-       var user = localStorage.getItem("user");
-       if(user != null){ //user does exist!
-         document.location='./selectgamescreen.html';
-       } 
+   var user = localStorage.getItem("user");
+   var user_id = localStorage.getItem("user");
+   if(user != null){ //user does exist!
+     document.location='./selectgamescreen.html';
+   } 
+   // if(user_id != null){ //user_id does exist!
+   //   document.location='./selectgamescreen.html';
+   // } 
 
     $("#loginForm").submit(function(event) {
 
@@ -19,6 +23,7 @@ $(document).ready(function() {
             success: function(data) {
                 if (data.status === true) {
                     //Puting user in localStorage
+                    console.log(data);
                     localStorage.setItem("user", u);
                     localStorage.setItem("user_id", data.user_id);
                     //Redirect to the selectGameScreen page
@@ -30,6 +35,7 @@ $(document).ready(function() {
             },
             error: function () {
                 localStorage.removeItem("user");
+                localStorage.removeItem("user_id");
                 console.log("Something's fundamentally wrong");
             }
         });

@@ -2,10 +2,16 @@ $(document).ready(function() {
 
    //Check whether the user is there
    var user = localStorage.getItem("user");
+   var user_id = localStorage.getItem("user_id");
    console.log(user);
+   console.log(user_id);
    if(user == null){ //user does not exist, bad!
      document.location='./login.html';
    } 
+   if(user_id == null){ //user_id does not exist, bad!
+     document.location='./login.html';
+   } 
+
 
    //take a look at underscore.js for the utility functions
    var request_url = _app_base+"api/games/players/" + localStorage.getItem("user_id");
