@@ -2,7 +2,7 @@ $(document).ready(function() {
     //redirect if the user is already logged in
        var user = localStorage.getItem("user");
        if(user != null){ //user does exist!
-         document.location='./selectGameScreen.html';
+         document.location='./selectgamescreen.html';
        } 
 
     $("#loginForm").submit(function(event) {
