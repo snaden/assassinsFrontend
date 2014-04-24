@@ -11,15 +11,14 @@ $(document).ready(function() {
    var request_url = _app_base+"/api/users";
 
    $.getJSON(request_url, function(response){
-		var users = response;
-		// console.log(users);
-  		for (var user in users){
-  		        if(users.hasOwnProperty(user)){
-  		        	// console.log(user);
-  		        	var userItem = $("<div>", {class: "checkList", text: user});
-  		        	$("#user_check_list").append(userItem);
-              }
-  		}
+       var users = response;
+       $.each(users, function() {
+//           console.log(this["username"]);
+           if (this["player_id"] != localStorage.getItem("user_id")) {
+               var userItem = $("<div>", {class: "checkList", text: this["username"]});
+               $("#user_check_list").append(userItem);
+           }
+       });
       toggleHighlight();
    });
 
@@ -36,7 +35,8 @@ $(document).ready(function() {
    		var selectedUsers = []; //input for players param of API
    		$(".highlight").each(function(){
         selectedUsers.push($(this).text())
-      })
+      });
+       selectedUsers.push(localStorage.getItem("user"));
       // seletedUserBoxs.each(function(){
    		// 	if(this.checked)
    		// 		selectedUsers.push($(this).val());
