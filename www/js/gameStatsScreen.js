@@ -110,7 +110,8 @@ $(document).ready(function() {
           dataType: 'json',
           success: function(response) {
               if (response.success) {
-                  location.reload();
+                  location.reload()
+                  alert("nice kill")
               } else {
                   alert(response.info);
               }
