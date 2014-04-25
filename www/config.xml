@@ -57,7 +57,7 @@
 
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
-    <icon src="res/icon/android/icon-36-ldpi.png"   gap:platform="android"    gap:density="ldpi" />
+<!--     <icon src="res/icon/android/icon-36-ldpi.png"   gap:platform="android"    gap:density="ldpi" />
     <icon src="res/icon/android/icon-48-mdpi.png"   gap:platform="android"    gap:density="mdpi" />
     <icon src="res/icon/android/icon-72-hdpi.png"   gap:platform="android"    gap:density="hdpi" />
     <icon src="res/icon/android/icon-96-xhdpi.png"  gap:platform="android"    gap:density="xhdpi" />
@@ -70,7 +70,7 @@
     <icon src="res/icon/webos/icon-64.png"          gap:platform="webos" />
     <icon src="res/icon/windows-phone/icon-48.png"  gap:platform="winphone" />
     <icon src="res/icon/windows-phone/icon-173.png" gap:platform="winphone"   gap:role="background" />
-
+ -->
     <!-- Define app splash screen for each platform. -->
     <gap:splash src="res/screen/android/screen-ldpi-portrait.png"  gap:platform="android" gap:density="ldpi" />
     <gap:splash src="res/screen/android/screen-mdpi-portrait.png"  gap:platform="android" gap:density="mdpi" />
@@ -91,11 +91,12 @@
 
         Otherwise, you can specify specific domains:
     -->
+    <access origin="*" /> <!-- a wildcard access tag allows access to all external resource. -->
     <access origin="http://127.0.0.1*"/> <!-- allow local pages -->
     <access origin="http://localhost:8080*"/> <!-- allow localhost for GAE server -->
     <access origin="http://macassassingame.appspot.com*"/> <!-- allow GAE server -->
     <access origin="http://code.jquery.com*"/> <!-- allow JQuery server -->
-    <access origin="http://debug.phonegap.com*"/> <!-- allow PhoneGap server -->
+    <access origin="http://localhost:8888*"/> <!-- allow Debug server -->
 
     <!--
         <access origin="http://phonegap.com" />                    - allow any secure requests to http://phonegap.com/

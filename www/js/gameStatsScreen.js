@@ -107,30 +107,31 @@ $(document).ready(function () {
         $("#display-kill-code").toggle("fast");
     });
 
-    $("#verify-kill-form").submit(function (event) {
-        var killCode = $("#killCode").val();
-        var kill_url = _app_base + "api/kill";
-        var kill_data = JSON.stringify({game_id: game_id, username: user, msg: killCode});
-        console.log(kill_data);
-        $.ajax({
-            url: kill_url,
-            type: "POST",
-            data: kill_data,
-            contentType: 'application/json; charset=UTF-8',
-            dataType: 'json',
-            success: function (response) {
-                if (response.success) {
-                    location.reload();
-                } else {
-                    alert(response.info);
-                }
-            },
-            error: function () {
-                console.log("Something's fundamentally wrong");
-            }
-        });
-        event.preventDefault();
-    });
+  $("#verify-kill-form").submit(function(event){
+      var killCode = $("#killCode").val();
+      var kill_url = _app_base + "api/kill";
+      var kill_data = JSON.stringify({game_id: game_id, username: user, msg: killCode});
+      console.log(kill_data);
+      $.ajax({
+          url: kill_url,
+          type: "POST",
+          data: kill_data,
+          contentType:'application/json; charset=UTF-8',
+          dataType: 'json',
+          success: function(response) {
+              if (response.success) {
+                  location.reload()
+                  alert("nice kill")
+              } else {
+                  alert(response.info);
+              }
+          },
+          error: function () {
+              console.log("Something's fundamentally wrong");
+          }
+      });
+      event.preventDefault();
+  });
 
     $("#game_select_redirect").on("click", function () {
         cleanUp();
