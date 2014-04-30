@@ -1,5 +1,6 @@
 body{
-	background-color: #181818;
+	/*background-color: #181818;*/
+	background-color: #323232;
 }
 
 .text{
@@ -45,7 +46,8 @@ body{
 	/*height: 75%;*/
 	vertical-align: middle;
 	padding: 20px;
-	background-color: #282828;
+/*	background-color: #282828;*/
+	background-color: #141414;
 	border: 1px solid #000000;
 }
 
@@ -53,6 +55,7 @@ body{
 	vertical-align: middle;
 	padding: 10px;
 	background-color: #282828;
+	/*background-color: #141414;*/
 	text-align: center;
 	border: 1px solid #000000;
 }
@@ -65,7 +68,8 @@ body{
 .text.input{
 	border-style: none;
 	font-size: 20px;
-	background-color: #282828;
+/*	background-color: #282828;*/
+	background-color: #141414;
 	color: #ffffff;
 	padding: 2px;
 	/*text-align: center;*/
