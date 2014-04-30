@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add GAME</title>
+    <link rel="stylesheet" href="css/theme.css">
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="http://localhost:8888/target/target-script-min.js#anonymous"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/addGame.js"></script>
+</head>
+<body>
+<div class="text headline">Add New Game</div>
+
+<form id="add_game_form">
+<div class="pannel">
+	<div class="text box" id="add_game_info_box">
+		<div class="text label">Game Name</div> 
+		<input id="game_name" class="text input" type="text" name="game_name"/>
+	</div>
+	<div class="text box" id="add_user_box">
+		<div class="text label">Select Players to Join You</div>
+		<div id="user_check_list">
+			<!-- We dynamically geneate this using the JQuery -->
+		</div>
+	</div>
+	<div class="text box" id="save_game_box">
+		<input type="submit" class="text submit" value="Save" id="saveButton"/>
+	</div>
+</div>
+</form>
+<div class="pannel">
+<!-- 	<a class = "game_link text box" href="addGame.html" id="add_game">Add New Game</a>
+ -->	<a class = "game_link text box" href="selectGameScreen.html" id="cancel_add_game">Cancel</a>
+</div>
+</body>
+</html>
