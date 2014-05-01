@@ -33,7 +33,7 @@ body{
 	/*height: 75%;*/
 	vertical-align: middle;
 	padding: 15px;
-	background-color: #000000;
+	background-color: #020202;
 	border: 1px solid #ff0000;
     font-size: 20px;
     color: #ff0000;
@@ -80,6 +80,7 @@ body{
 .text.submit{
 	border-style: none;
 	font-size: 20px;
+	color: #020202;
 	background-color: #ff0000;
 	padding: 5px;
 	text-align: left;
