@@ -42,4 +42,8 @@ $(document).ready(function() {
         event.preventDefault();
     });
 
+    $("#forgot_password_redirect").click(function alertMessage(){
+    alert("This is a work in progress.");
+    });
+
 });
