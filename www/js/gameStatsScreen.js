@@ -62,6 +62,7 @@ $(document).ready(function () {
                 if (response["target"] != null) {
                     updateTargetInfo(response["target"]);
                     updateKillCode(response["msg"]);
+                    updateCountdown();
                 } else { //user is dead
                     var images = ['<img  height="150" src="img/dead1.png" />',
                         '<img height="150" src="img/dead2.png" />',
@@ -99,6 +100,12 @@ $(document).ready(function () {
         $('#kill-code').text(killCode);
     };
 
+    var updateCountdown =  function(){
+        var newYear = new Date(); 
+        newYear = new Date(newYear.getFullYear() + 1, 1 - 1, 1); 
+        $('#countdown-clock').countdown({until: newYear}); 
+    };
+    
     $("#killer-mascot").on("click", function () {
         $("#verify-kill").toggle("fast");
     });

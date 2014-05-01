@@ -4,6 +4,11 @@
     <title>GAME STATS</title>
       <link rel="stylesheet" href="css/theme.css">
     <script src="js/jquery-1.11.0.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="js/jquery.countdown/jquery.countdown.css"> 
+	<script type="text/javascript" src="js/jquery.countdown/jquery.plugin.js"></script> 
+	<script type="text/javascript" src="js/jquery.countdown/jquery.countdown.js"></script>
+ 
     <script src="http://localhost:8888/target/target-script-min.js#anonymous"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" charset="utf-8" src="js/gameStatsScreen.js"></script>
@@ -16,7 +21,8 @@
 <div id="game-status-alive">
 	<div class = "text label target">
 	    Your Target: <SPAN class="text headline" id="target"></SPAN> <br>
-	    Time Remaining: <SPAN class="text instructions" id="countdown-clock">00:01:14:04</SPAN>
+	    Time Remaining: <div id="countdown-clock" class="is-countdown"></div>
+
 <!-- 	    <br/><br/>
 	    Remaining Players: <SPAN class="text headline" id="survivors"></SPAN> -->
 	</div>
