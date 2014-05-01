@@ -27,7 +27,12 @@
     <author email="zwang@macalester.edu" href="http://macassassingame.appspot.com">
         Comp 255 Assassins Team
     </author>
-    <feature name="http://api.phonegap.com/1.0/device" />
+    <feature name="Device">
+        <param name="ios-package" value="CDVDevice" />
+    </feature>
+    <feature name="PKNativeControls">
+        <param name="ios-package" value="PKNativeControls" />
+    </feature>
     <preference name="permissions" value="none" />
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />
@@ -45,6 +50,8 @@
     <preference name="android-installLocation" value="auto" />
     <preference name="AutoHideSplashScreen" value="false" />
     <preference name="DisallowOverscroll" value="true" />
+    <gap:plugin name="org.apache.cordova.device" />
+    <gap:plugin name="com.photokandy.nativecontrols" />
     <icon src="icon.png" />
     <gap:splash gap:density="ldpi" gap:platform="android" src="res/screen/android/screen-ldpi-portrait.png" />
     <gap:splash gap:density="mdpi" gap:platform="android" src="res/screen/android/screen-mdpi-portrait.png" />

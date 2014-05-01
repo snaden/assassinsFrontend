@@ -1,60 +1,59 @@
-/*
- * Licensed to the Apache Software Foundation (ASF) under one
- * or more contributor license agreements.  See the NOTICE file
- * distributed with this work for additional information
- * regarding copyright ownership.  The ASF licenses this file
- * to you under the Apache License, Version 2.0 (the
- * "License"); you may not use this file except in compliance
- * with the License.  You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an
- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- * KIND, either express or implied.  See the License for the
- * specific language governing permissions and limitations
- * under the License.
- */
-var app = {
-    // Application Constructor
-    initialize: function() {
-        this.bindEvents();
-    },
-    // Bind Event Listeners
-    //
-    // Bind any events that are required on startup. Common events are:
-    // 'load', 'deviceready', 'offline', and 'online'.
-    bindEvents: function() {
-        document.addEventListener('deviceready', this.onDeviceReady, false);
-    },
-    // deviceready Event Handler
-    //
-    // The scope of 'this' is the event. In order to call the 'receivedEvent'
-    // function, we must explicity call 'app.receivedEvent(...);'
-    onDeviceReady: function() {
-        app.receivedEvent('deviceready');
-        if (parseFloat(window.device.version) >= 7.0) {
-          document.body.style.marginTop = "50px";
-          // OR do whatever layout you need here, to expand a navigation bar etc
-        }
-        navigator.splashscreen.hide();
-    },
-    // Update DOM on a Received Event
-    receivedEvent: function(id) {
-        var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
+// /*
+//  * licensed to the apache software foundation (asf) under one
+//  * or more contributor license agreements.  see the notice file
+//  * distributed with this work for additional information
+//  * regarding copyright ownership.  the asf licenses this file
+//  * to you under the apache license, version 2.0 (the
+//  * "license"); you may not use this file except in compliance
+//  * with the license.  you may obtain a copy of the license at
+//  *
+//  * http://www.apache.org/licenses/license-2.0
+//  *
+//  * unless required by applicable law or agreed to in writing,
+//  * software distributed under the license is distributed on an
+//  * "as is" basis, without warranties or conditions of any
+//  * kind, either express or implied.  see the license for the
+//  * specific language governing permissions and limitations
+//  * under the license.
+//  */
+// var app = {
+//     // application constructor
+//     initialize: function() {
+//         this.bindevents();
+//     },
+//     // bind event listeners
+//     //
+//     // bind any events that are required on startup. common events are:
+//     // 'load', 'deviceready', 'offline', and 'online'.
+//     bindevents: function() {
+//         document.addeventlistener('deviceready', this.ondeviceready, false);
+//     },
+//     // deviceready event handler
+//     //
+//     // the scope of 'this' is the event. in order to call the 'receivedevent'
+//     // function, we must explicity call 'app.receivedevent(...);'
+//     ondeviceready: function() {
+//         app.receivedevent('deviceready');
+//         if (parsefloat(window.device.version) >= 7.0) {
+//           document.body.style.margintop = "50px";
+//           // or do whatever layout you need here, to expand a navigation bar etc
+//         }
+//         navigator.splashscreen.hide();
+//     },
+//     // update dom on a received event
+//     receivedevent: function(id) {
+//         var parentelement = document.getelementbyid(id);
+//         var listeningelement = parentelement.queryselector('.listening');
+//         var receivedelement = parentelement.queryselector('.received');
 
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
+//         listeningelement.setattribute('style', 'display:none;');
+//         receivedelement.setattribute('style', 'display:block;');
 
-        console.log('Received Event: ' + id);
-    }
-};
+//         console.log('received event: ' + id);
+//     }
+// };
 
 $(document).ready(function() {
-
     //redirect to login
     document.location='./login.html';
 

@@ -1,0 +1,19 @@
+{
+    "version": "1.0.2",
+    "name": "com.photokandy.nativecontrols",
+    "cordova_name": "Native Controls",
+    "description": "Native Controls (alpha; iOS 7 only for now)",
+    "license": "MIT",
+    "keywords": [
+        "native",
+        " controls",
+        " ios",
+        " ios7"
+    ],
+    "engines": [
+        {
+            "name": "cordova",
+            "version": ">=2.9.0"
+        }
+    ]
+}

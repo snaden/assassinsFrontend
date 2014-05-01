@@ -1,13 +1,15 @@
 $(document).ready(function() {
-    //redirect if the user is already logged in
-   var user = localStorage.getItem("user");
-   var user_id = localStorage.getItem("user_id");
-   if(user != null){ //user does exist!
-     document.location='./selectGameScreen.html';
-   } 
-   if(user_id != null){ //user_id does exist!
-     document.location='./selectGameScreen.html';
-   } 
+     //redirect if the user is already logged in
+    var user = localStorage.getItem("user");
+    var user_id = localStorage.getItem("user_id");
+    if(user != null){ //user does exist!
+      document.location='./selectGameScreen.html';
+    } 
+    if(user_id != null){ //user_id does exist!
+      document.location='./selectGameScreen.html';
+    } 
+
+    _clearErrorMessage();
 
     $("#loginForm").submit(function(event) {
 
@@ -29,13 +31,14 @@ $(document).ready(function() {
                     document.location='./selectGameScreen.html';
                 } else {
                     localStorage.removeItem("user");
-                    alert(data.status);
+                    // alert(data.status);
+                    _displayErrorMessage(data.status);
                 }
             },
             error: function () {
                 localStorage.removeItem("user");
                 localStorage.removeItem("user_id");
-                alert("Something's fundamentally wrong with the server");
+                _displayErrorMessage("Unable to login at this time. Check your network connection.");
             }
         });
 
@@ -43,7 +46,7 @@ $(document).ready(function() {
     });
 
     $("#forgot_password_redirect").click(function alertMessage(){
-    alert("This is a work in progress.");
+        _displayErrorMessage("This is a work in progress.");
     });
 
 });
