@@ -41,6 +41,10 @@ body{
     vertical-align: middle;
 }
 
+.text.instructions.index{
+	text-align: center;
+}
+
 .pannel{
 	/*width: 95%;*/
 	/*height: 75%;*/
@@ -85,10 +89,6 @@ body{
 	padding: 5px;
 	text-align: left;
 }
-
-/*#loginContainer{
-	text-align: center;
-}*/
 
 .title{
 	text-align: center;
@@ -139,4 +139,17 @@ a.game_item{
 
 #user_check_list{
 	padding: 20px;
+}
+
+#countdown-clock{
+	width: 50%;
+	padding: 2px;
+	background-color: #323232;
+	border: none;
+	text-align: center;
+	font-size: 15px
+}
+
+#index-time-out{
+	display: none;
 }

@@ -41,6 +41,10 @@ body{
     vertical-align: middle;
 }
 
+.text.instructions.index{
+	text-align: center;
+}
+
 .pannel{
 	/*width: 95%;*/
 	/*height: 75%;*/
@@ -144,4 +148,8 @@ a.game_item{
 	border: none;
 	text-align: center;
 	font-size: 15px
+}
+
+#index-time-out{
+	display: none;
 }

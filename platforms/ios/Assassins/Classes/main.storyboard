@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D45a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="b5T-be-IxO">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D45a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="uYH-qN-kEd">
     <dependencies>
         <deployment defaultVersion="1280" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
@@ -37,24 +37,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oG3-Qv-NEz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="631" y="19"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="xAl-ls-SgN">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="b5T-be-IxO" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="AOk-DL-tus">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="uYH-qN-kEd" kind="relationship" relationship="rootViewController" id="HpC-BJ-Zlb"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="sgx-Em-pXL" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="105" y="19"/>
         </scene>
     </scenes>
     <color key="tintColor" red="0.19607844948768616" green="0.19607844948768616" blue="0.19607844948768616" alpha="1" colorSpace="deviceRGB"/>
