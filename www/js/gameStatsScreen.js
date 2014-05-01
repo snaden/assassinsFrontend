@@ -60,9 +60,10 @@ $(document).ready(function () {
                 $(".mascot").css("display", "none");
             } else {
                 if (response["target"] != null) {
+                    console.log(response);
                     updateTargetInfo(response["target"]);
                     updateKillCode(response["msg"]);
-                    updateCountdown();
+                    updateCountdown(response["time_left"]);
                 } else { //user is dead
                     var images = ['<img  height="150" src="img/dead1.png" />',
                         '<img height="150" src="img/dead2.png" />',
@@ -100,10 +101,10 @@ $(document).ready(function () {
         $('#kill-code').text(killCode);
     };
 
-    var updateCountdown =  function(){
-        var newYear = new Date(); 
-        newYear = new Date(newYear.getFullYear() + 1, 1 - 1, 1); 
-        $('#countdown-clock').countdown({until: newYear}); 
+    var updateCountdown =  function(date){
+      console.log(date);
+      var kill_time = new Date(date)
+        $('#countdown-clock').countdown({until: date}); 
     };
     
     $("#killer-mascot").on("click", function () {
