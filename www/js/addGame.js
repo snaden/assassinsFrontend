@@ -34,7 +34,11 @@ $(document).ready(function () {
             selectedUsers.push($(this).text())
         });
         var gameInfoData = {'title': gameName, 'players': selectedUsers};
-        addGameWithInfo(gameInfoData);
+        if (selectedUsers.length > 1) {
+            addGameWithInfo(gameInfoData);
+        } else {
+            console.log("Please add a player to play with you. ");
+        }
         e.preventDefault();
     });
 
