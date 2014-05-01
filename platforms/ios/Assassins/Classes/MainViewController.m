@@ -82,6 +82,12 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+//    UINavigationBar *navbar = [[UINavigationBar alloc]initWithFrame:CGRectMake(0, 0, 320, 50)];
+//    navbar.barTintColor = [UIColor colorWithRed:0.196 green:0.196 blue:0.196 alpha:0.95];
+//    navbar.translucent = NO;
+//    [self.view addSubview:navbar];
+//    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"back" style:UIBarButtonItemStylePlain target:nil action:nil];
 }
 
 - (void)viewDidUnload
@@ -136,6 +142,9 @@
 }
 */
 
+- (IBAction)backButtonClicked:(id)sender {
+    [self.webView goBack];
+}
 @end
 
 @implementation MainCommandDelegate
