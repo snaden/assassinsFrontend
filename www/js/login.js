@@ -9,7 +9,7 @@ $(document).ready(function() {
       document.location='./selectGameScreen.html';
     } 
 
-    _clearErrorMessage();
+    _clearErrorMessage("login-error-msg");
 
     $("#loginForm").submit(function(event) {
 
@@ -32,13 +32,13 @@ $(document).ready(function() {
                 } else {
                     localStorage.removeItem("user");
                     // alert(data.status);
-                    _displayErrorMessage(data.status);
+                    _displayErrorMessage(data.status, "login-error-msg");
                 }
             },
             error: function () {
                 localStorage.removeItem("user");
                 localStorage.removeItem("user_id");
-                _displayErrorMessage("Unable to login at this time. Check your network connection.");
+                _displayErrorMessage("Unable to login at this time. Check your network connection.","login-error-msg");
             }
         });
 
@@ -46,7 +46,7 @@ $(document).ready(function() {
     });
 
     $("#forgot_password_redirect").click(function alertMessage(){
-        _displayErrorMessage("This is a work in progress.");
+        _displayErrorMessage("This is a work in progress.","login-error-msg");
     });
 
 });

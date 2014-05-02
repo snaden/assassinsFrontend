@@ -3,22 +3,28 @@ $(document).ready(function() {
 	window._app_base = "http://macassassingame.appspot.com/";
 
 	//error handling
-    window._displayErrorMessage = function(msg){
-        $(".error").text(msg);
-        $(".error").css("display","block");
+    window._displayErrorMessage = function(msg, id){
+        if((id !== undefined) && (id !== null)){
+            $("#"+id).text(msg);
+            $("#"+id).css("display","block");
+        }
     }
 
-    window._clearErrorMessage = function(){
+    window._clearErrorMessage = function(id){
         //clear error message
-        $(".error").text('');
-        $(".error").css("display","none");
+        $("#"+id).text('');
+        $("#"+id).css("display","none");
     }
 
-    window._spinnerStart = function(){
-    	$(".spinner").css("display","block");
+    window._spinnerStart = function(id){
+        if((id !== undefined) && (id !== null)){
+            $("#"+id).css("display","block");
+        }
     }
 
-    window._spinnerStop = function(){
-    	$(".spinner").css("display","none");
+    window._spinnerStop = function(id){
+        if((id !== undefined) && (id !== null)){
+            $("#"+id).css("display","none");
+        }
     }
 });
