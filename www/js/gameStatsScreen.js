@@ -18,8 +18,6 @@ $(document).ready(function () {
     var game_id = localStorage.getItem("game");
     var user = localStorage.getItem("user");
     var target_name = localStorage.getItem("target_name");
-    console.log(game_id);
-    console.log(user);
     if (user == null || game_id == null) { //user does exist!
         var msg = "No username or game_id on the page";
         handle_error(msg);
@@ -28,7 +26,6 @@ $(document).ready(function () {
     //requesting game
     var game_url = _app_base + "/api/games/" + game_id;
     $.getJSON(game_url, function (response) {
-//    console.log(response);
         if (response["success"]) {
             // var gameInfo = response["info"]["survivors"];
             // updateGameInfo(gameInfo);
@@ -48,7 +45,7 @@ $(document).ready(function () {
     var request_url = _app_base + "/api/game_player_status";
     $.getJSON(request_url, request_data, function (response) {
         var player_status = response;
-//        console.log(player_status);
+        console.log(player_status);
         if (response["in_game"]) { //user is a part of game
             if (response["game_completed"]) {
                 if (response["winner_name"] == localStorage.getItem("user")) {
