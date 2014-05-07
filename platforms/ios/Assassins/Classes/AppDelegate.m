@@ -63,30 +63,43 @@
  */
 - (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions
 {
-    CGRect screenBounds = [[UIScreen mainScreen] bounds];
-
-#if __has_feature(objc_arc)
-        self.window = [[UIWindow alloc] initWithFrame:screenBounds];
-#else
-        self.window = [[[UIWindow alloc] initWithFrame:screenBounds] autorelease];
-#endif
-    self.window.autoresizesSubviews = YES;
-
-#if __has_feature(objc_arc)
-        self.viewController = [[MainViewController alloc] init];
-#else
-        self.viewController = [[[MainViewController alloc] init] autorelease];
-#endif
-
-    // Set your app's start page by setting the <content src='foo.html' /> tag in config.xml.
-    // If necessary, uncomment the line below to override it.
-    // self.viewController.startPage = @"index.html";
-
-    // NOTE: To customize the view's frame size (which defaults to full screen), override
-    // [self.viewController viewWillAppear:] in your view controller.
-
-    self.window.rootViewController = self.viewController;
-    [self.window makeKeyAndVisible];
+//    CGRect screenBounds = [[UIScreen mainScreen] bounds];
+//
+//#if __has_feature(objc_arc)
+//        self.window = [[UIWindow alloc] initWithFrame:screenBounds];
+//#else
+//        self.window = [[[UIWindow alloc] initWithFrame:screenBounds] autorelease];
+//#endif
+//    self.window.autoresizesSubviews = YES;
+//
+//#if __has_feature(objc_arc)
+//        self.viewController = [[MainViewController alloc] init];
+//#else
+//        self.viewController = [[[MainViewController alloc] init] autorelease];
+//#endif
+//
+//    // Set your app's start page by setting the <content src='foo.html' /> tag in config.xml.
+//    // If necessary, uncomment the line below to override it.
+//    // self.viewController.startPage = @"index.html";
+//
+//    // NOTE: To customize the view's frame size (which defaults to full screen), override
+//    // [self.viewController viewWillAppear:] in your view controller.
+//
+//    self.window.rootViewController = self.viewController;
+//    [self.window makeKeyAndVisible];
+//    
+//
+    // Changing the look of status bar
+    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0) {
+        UIView *addStatusBar = [[UIView alloc] init];
+        addStatusBar.frame = CGRectMake(0, 0, 320, 20);
+        //change this to match your navigation bar or view color or tool bar
+        //You can also use addStatusBar.backgroundColor = [UIColor BlueColor]; or any other color
+        addStatusBar.backgroundColor = [UIColor colorWithRed:0.196 green:0.196 blue:0.196 alpha:0.95];
+        [self.window.rootViewController.view addSubview:addStatusBar];
+    }
+    // Changing the look of navigation bar
+//    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:0 green:0 blue:0 alpha:1]];
 
     return YES;
 }

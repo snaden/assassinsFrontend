@@ -13,13 +13,21 @@ module.exports = [
         "clobbers": [
             "navigator.splashscreen"
         ]
+    },
+    {
+        "file": "plugins/com.photokandy.nativecontrols/www/PKNativeControls.js",
+        "id": "com.photokandy.nativecontrols.PKNativeControls",
+        "clobbers": [
+            "window.nativeControls"
+        ]
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
     "org.apache.cordova.device": "0.2.8",
-    "org.apache.cordova.splashscreen": "0.3.0"
+    "org.apache.cordova.splashscreen": "0.3.0",
+    "com.photokandy.nativecontrols": "1.0.2"
 }
 // BOTTOM OF METADATA
 });

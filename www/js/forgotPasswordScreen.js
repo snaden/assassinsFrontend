@@ -1,13 +1,5 @@
-/**
- * Created by SAM on 3/6/14.
- */
 
-//function myFunction()
-//{
-////    document.getElementById("passwordSubmit").innerHTML = Date();
-//    document.getElementById("passwordSubmit").appendData("Hi");
-//}
-
+//This code isn't currently used.
 $("#passwordSubmit").click(function myFunction(){
     $("div").append("<b>Appended text</b>");
 });

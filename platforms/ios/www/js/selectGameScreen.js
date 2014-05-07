@@ -15,8 +15,9 @@ $(document).ready(function() {
 
    //take a look at underscore.js for the utility functions
    var request_url = _app_base+"api/games/players/" + localStorage.getItem("user_id");
-
+   _spinnerStart(id="game-pannel-spinner");
    $.getJSON(request_url, function(response){
+      _spinnerStop(id="game-pannel-spinner");
       var games = response;
       console.log(games);
       for (var game in games){

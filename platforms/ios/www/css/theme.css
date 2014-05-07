@@ -1,5 +1,6 @@
 body{
-	background-color: #181818;
+	/*background-color: #181818;*/
+	background-color: #323232;
 }
 
 .text{
@@ -32,7 +33,7 @@ body{
 	/*height: 75%;*/
 	vertical-align: middle;
 	padding: 15px;
-	background-color: #000000;
+	background-color: #020202;
 	border: 1px solid #ff0000;
     font-size: 20px;
     color: #ff0000;
@@ -40,12 +41,17 @@ body{
     vertical-align: middle;
 }
 
+.text.instructions.index{
+	text-align: center;
+}
+
 .pannel{
 	/*width: 95%;*/
 	/*height: 75%;*/
 	vertical-align: middle;
 	padding: 20px;
-	background-color: #282828;
+/*	background-color: #282828;*/
+	background-color: #141414;
 	border: 1px solid #000000;
 }
 
@@ -53,6 +59,7 @@ body{
 	vertical-align: middle;
 	padding: 10px;
 	background-color: #282828;
+	/*background-color: #141414;*/
 	text-align: center;
 	border: 1px solid #000000;
 }
@@ -65,7 +72,8 @@ body{
 .text.input{
 	border-style: none;
 	font-size: 20px;
-	background-color: #282828;
+/*	background-color: #282828;*/
+	background-color: #141414;
 	color: #ffffff;
 	padding: 2px;
 	/*text-align: center;*/
@@ -76,14 +84,18 @@ body{
 .text.submit{
 	border-style: none;
 	font-size: 20px;
+	color: #020202;
 	background-color: #ff0000;
 	padding: 5px;
 	text-align: left;
 }
 
-/*#loginContainer{
+.text.error{
+	display: none;
+	font-size: 12px;
+	color: #ff0000;
 	text-align: center;
-}*/
+}
 
 .title{
 	text-align: center;
@@ -134,4 +146,17 @@ a.game_item{
 
 #user_check_list{
 	padding: 20px;
+}
+
+#countdown-clock{
+	width: 50%;
+	padding: 2px;
+	background-color: #323232;
+	border: none;
+	text-align: center;
+	font-size: 15px
+}
+
+#index-time-out{
+	display: none;
 }

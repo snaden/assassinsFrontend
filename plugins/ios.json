@@ -7,6 +7,12 @@
         "files": {
             "config.xml": {
                 "parents": {
+                    "/widget/plugins": [
+                        {
+                            "xml": "<feature name=\"PKNativeControls\"><param name=\"ios-package\" value=\"PKNativeControls\" /></feature>",
+                            "count": 1
+                        }
+                    ],
                     "/*": [
                         {
                             "xml": "<feature name=\"Device\"><param name=\"ios-package\" value=\"CDVDevice\" /></feature>",
@@ -32,8 +38,11 @@
         }
     },
     "installed_plugins": {
+        "com.photokandy.nativecontrols": {
+            "PACKAGE_NAME": "com.phonegap.helloworld"
+        },
         "org.apache.cordova.device": {
-            "PACKAGE_NAME": "edu.macalester.reyukesa"
+            "PACKAGE_NAME": "com.phonegap.helloworld"
         },
         "org.apache.cordova.splashscreen": {
             "PACKAGE_NAME": "com.phonegap.helloworld"
