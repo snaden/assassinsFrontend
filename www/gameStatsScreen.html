@@ -17,17 +17,18 @@
 </head>
 <body>
 <div class="text label title">Game Status</div>
-<div class="text headline" id="gametitle"></div>
+<div class="text headline" id="gametitle">
+</div>
 <br/> 
+<div id="game-status-spinner">
+	<img height="80" src="img/loading.gif">
+</div>
 <div id="game-main-content">
 	<div id="game-status-alive">
 		<div class = "text label target">
 		    your target: <span class="text headline" id="target"></span> <br/>
 		    time remaining: <br/>
 		    <span id="countdown-clock"></span>
-
-	<!-- 	    <br/><br/>
-		    remaining players: <span class="text headline" id="survivors"></span> -->
 		</div>
 		<br/>
 		<div class="mascot">
@@ -42,7 +43,7 @@
 	<div id="verify-kill">
 		<form id="verify-kill-form">
 			<div class="text label">enter kill code <br/>(the code from your victim)</div> 
-			<input id="killcode" class="text input" type="text" name="killcode"/>
+			<input id="killCode" class="text input" type="text" name="killcode"/>
 			<input type="submit" class="text submit" value="kill" id="submitbutton"/>
 		</form>
 	</div>
@@ -60,14 +61,14 @@
 
 <div class="pannel">
 	<div class = "text box" id="kill-verification">
-		<a id="i-died">i've been killed</a>
+		<a id="i-died">I've Been Killed</a>
 	</div>
 
-	<div id="display-kill-code" class="text label">give your killer this code: <span class="text instructions" id="kill-code"></span>
+	<div id="display-kill-code" class="text label">Give your killer this code: <span class="text instructions" id="kill-code"></span>
 	</div>
 
 	<br/>
-    <a class = "game_link text box" href="selectgamescreen.html" id="game_select_redirect">back to game select</a>
+    <a class = "game_link text box" href="selectGameScreen.html" id="game_select_redirect">Back to Game Select</a>
 </div>
 
 </body>
