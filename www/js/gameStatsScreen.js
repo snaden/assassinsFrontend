@@ -20,8 +20,11 @@ $(document).ready(function () {
       handle_error(msg);
   }
 
-  //requesting game title
+  //basic setup
   _spinnerStart("game-status-spinner");
+  $('#kill-verification').css("display", "none");
+
+  //requesting game title
   var game_url = _app_base + "/api/games/" + game_id;
   $.getJSON(game_url, function (response) {
       //_spinnerStop("game-name-spinner");
@@ -59,6 +62,7 @@ $(document).ready(function () {
             } else {
                 if (response["target"] != null) {
                     console.log(response);
+                    $('#kill-verification').css("display", "block"); //display kill verification
                     updateTargetInfo(response["target"]);
                     updateKillCode(response["msg"]);
                     updateCountdown(response["time_left"]);
@@ -69,7 +73,6 @@ $(document).ready(function () {
                         '<img height="150" src="img/dead4.png" />'];
                     var image = images[Math.floor(Math.random() * images.length)];
                     $("#game-status-dead").css("display", "block");
-                    $('#kill-verification').css("display", "none");
                     $('#game-status-dead').prepend(image);
                     $("#game-status-alive").css("display", "none");
                 }
