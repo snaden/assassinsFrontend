@@ -49,14 +49,15 @@ $(document).ready(function () {
         console.log(player_status);
         if (response["in_game"]) { //user is a part of game
             if (response["game_completed"]) {
-                $(".text.label.target").prepend( '<img height="150" src="img/winning.png" />');
+                // $(".text.label.target").prepend( '<img height="150" src="img/winning.png" />');
                 if (response["winner_name"] == localStorage.getItem("user")) {
                     $(".text.label.target").html('<SPAN class="text headline" id="target">You have won! You are the ultimate Assassin!</SPAN>');
                 } else {
                     $(".text.label.target").html('<SPAN class="text headline" id="target">' + response["winner_name"] + ' is victorious, while you have been left in the dust!</SPAN>');
                 }
                 $('#kill-verification').css("display", "none");
-                $(".mascot").css("display", "none");
+                $("#killer-mascot").css("display", "none");
+                $(".mascot").prepend( '<img height="200" src="img/winning.png" />');
             } else {
                 if (response["target"] != null) {
                     console.log(response);
