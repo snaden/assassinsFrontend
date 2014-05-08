@@ -100,7 +100,7 @@ $(document).ready(function () {
 
     var updateCountdown =  function(date){
       console.log(date);
-      var kill_time = new Date(date)
+      var kill_time = new Date(date);
         $('#countdown-clock').countdown({until: date}); 
     };
     
