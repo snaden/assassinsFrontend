@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	// _app_base = "http://localhost:8080/";
+//	window.__dev_app_base = "http://localhost:8080/";
 	window._app_base = "http://macassassingame.appspot.com/";
 
 	//error handling
@@ -8,19 +8,19 @@ $(document).ready(function() {
             $("#"+id).text(msg);
             $("#"+id).css("display","block");
         }
-    }
+    };
 
     window._clearErrorMessage = function(id){
         //clear error message
         $("#"+id).text('');
         $("#"+id).css("display","none");
-    }
+    };
 
     window._spinnerStart = function(id){
         if((id !== undefined) && (id !== null)){
             $("#"+id).css("display","block");
         }
-    }
+    };
 
     window._spinnerStop = function(id){
         if((id !== undefined) && (id !== null)){
