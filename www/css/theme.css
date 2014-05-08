@@ -115,6 +115,14 @@ body{
 	text-align: center;
 }
 
+#game-main-content{
+	display: none;
+}
+
+#game-status-spinner{
+	text-align: center;
+}
+
 #verify-kill{
 	display: none;
 	text-align: center;
