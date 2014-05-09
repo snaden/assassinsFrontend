@@ -4,7 +4,7 @@ Assassins FrontEnd README
 ## Assassins
 
 Assassins is a mobile app that allows users to organize, run, 
-and keep track of the [Assassin's Game](http://en.wikipedia.org/wiki/Assassin_(game)). We keeps track of things like who needs to kill whom, 
+and keep track of the [Assassin's Game](http://en.wikipedia.org/wiki/Assassin_(game)). We keep track of things like who needs to kill whom, 
 who is still alive, and who wins.
 
 ## Architecture
@@ -19,14 +19,14 @@ https://github.com/keeeeenw/AssassinServerAPI
 ### Client Development
 
 This repository hosts the files for the Client component of our app, which builds on 
-top of PhoneGap framework.
+top of the PhoneGap framework.
 
 ### Cordova and PhoneGap
 
 Cordova is an open source framework that enables us to write our mobile app 
 using HTML, CSS, and JavaScript. PhoneGap builds on top of Cordova to 
 provide extra features. We have tested deploying our app to iOS 7 and
-Android platform. For detailed platform support, check out this link:
+Android platforms. For detailed platform support, check out this link:
 http://docs.phonegap.com/en/edge/guide_support_index.md.html#Platform%20Support
 
 If you are interested in learning more about PhoneGap, the developer document is
@@ -88,19 +88,20 @@ To run the app, you need to run the following command for iOS or Android platfor
 		phonegap run ios
 		phonegap run android
 
-By default `run` command automatically deploys the app to the simulator if you do not 
+By default the `run` command automatically deploys the app to the simulator if you do not 
 have any device connected to your computer. You may be asked to install some dependent 
 packages or specify the path of your Android SDK. Alternatively, for iOS platform, 
 you can deploy the app using Xcode by opening up the 
 project file under `platforms/ios/Assassins.xcodeproj`.
 
-If have your development phone connected to your computer, `run` command
+If you have your development phone connected to your computer, `run` command
 deploys the app to your device. Notice that you need to enable USB Debugging on Android 
 before deploying the app. For iOS, it is more complicated. You need to have a paid
 developer account for on-device testing and set up your phone for development. If you have
 deployed apps on your iOS devices before, `run` command should just work.
 
-
+##ATTENTION USERS
+Please see the document in this repository called "user_docs.md" to see how you can set up your own account.  Unfortunately this must be done from the back end as we haven't implemented this feature on the front end.  
 
 
 
