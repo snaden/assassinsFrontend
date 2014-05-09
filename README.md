@@ -101,7 +101,7 @@ developer account for on-device testing and set up your phone for development. I
 deployed apps on your iOS devices before, `run` command should just work.
 
 ##ATTENTION USERS
-Please see the document in this repository called "user_docs.md" to see how you can set up your own account.  Unfortunately this must be done from the back end as we haven't implemented this feature on the front end.  
+Please see the document in this repository called "user_docs.md" to see how you can set up your own account.  Unfortunately this must be done from the back end as we haven't implemented this feature on the front end.  The user doc also contains some frequently asked questions and answers.    
 
 
 
