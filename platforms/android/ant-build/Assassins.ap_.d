@@ -26,7 +26,6 @@
 /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/platforms/android/assets/www/js \
 /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/platforms/android/assets/www/login.html \
 /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/platforms/android/assets/www/phonegap.js \
-/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/platforms/android/assets/www/plugins \
 /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/platforms/android/assets/www/res \
 /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/platforms/android/assets/www/selectGameScreen.html \
 /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/platforms/android/assets/www/spec \
@@ -116,15 +115,6 @@
 /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/platforms/android/assets/www/js/jquery.countdown/jquery.countdown.min.js \
 /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/platforms/android/assets/www/js/jquery.countdown/jquery.plugin.js \
 /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/platforms/android/assets/www/js/jquery.countdown/jquery.plugin.min.js \
-/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/platforms/android/assets/www/plugins/com.photokandy.nativecontrols \
-/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/platforms/android/assets/www/plugins/org.apache.cordova.device \
-/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/platforms/android/assets/www/plugins/org.apache.cordova.splashscreen \
-/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/platforms/android/assets/www/plugins/com.photokandy.nativecontrols/www \
-/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/platforms/android/assets/www/plugins/com.photokandy.nativecontrols/www/PKNativeControls.js \
-/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/platforms/android/assets/www/plugins/org.apache.cordova.device/www \
-/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/platforms/android/assets/www/plugins/org.apache.cordova.device/www/device.js \
-/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/platforms/android/assets/www/plugins/org.apache.cordova.splashscreen/www \
-/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/platforms/android/assets/www/plugins/org.apache.cordova.splashscreen/www/splashscreen.js \
 /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/platforms/android/assets/www/res/icon \
 /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/platforms/android/assets/www/res/screen \
 /Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/platforms/android/assets/www/res/icon/android \

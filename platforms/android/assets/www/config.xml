@@ -21,13 +21,6 @@
         Enable individual API permissions here.
         The "device" permission is required for the 'deviceready' event.
     -->
-    <feature name="Device">
-        <param name="ios-package" value="CDVDevice" />
-    </feature>
-    <feature name="PKNativeControls">
-        <param name="ios-package" value="PKNativeControls" />
-    </feature>
-
     <!--
         If you do not want any permissions to be added to your app, add the
         following tag to your config.xml; you will still have the INTERNET
@@ -54,9 +47,6 @@
     <preference name="AutoHideSplashScreen" value="false" /> <!-- ios7 status bar tweek -->
     <preference name="DisallowOverscroll" value="true" /> <!-- ios7 status bar tweek -->
 
-    <!-- Plugins can also be added here. -->
-        <gap:plugin name="org.apache.cordova.device" />
-        <gap:plugin name="com.photokandy.nativecontrols" />
     <!--
         <gap:plugin name="Example" />
         A list of available plugins are available at https://build.phonegap.com/docs/plugins
