@@ -57,7 +57,7 @@ Before building the app, you need to clone this repo to your local machine:
 You should be able to run `phonegap` command under `assassinsFrontend` directory.
 
 The `www` folder includes the HTML, CSS, JavaScript files for the front end app. The
-build program refer to theses files when building platform specific code. These files
+build program refers to theses files when building platform specific code. These files
 can be tested using a normal web browser before deploying them to devices.
 There are two JavaScript Libraries we are using: 
 [jQuery](http://jquery.com) and [jQuery Countdown](http://keith-wood.name/countdown.html).
@@ -92,7 +92,7 @@ By default the `run` command automatically deploys the app to the simulator if y
 have any device connected to your computer. You may be asked to install some dependent 
 packages or specify the path of your Android SDK. Alternatively, for iOS platform, 
 you can deploy the app using Xcode by opening up the 
-project file under `platforms/ios/Assassins.xcodeproj`.
+project file under `platforms/ios/Assassins.xcodeproj`.  We recommend using Xcode to run the app on iOS.
 
 If you have your development phone connected to your computer, `run` command
 deploys the app to your device. Notice that you need to enable USB Debugging on Android 
