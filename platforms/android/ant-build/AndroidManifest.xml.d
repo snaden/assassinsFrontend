@@ -1,2 +1,2 @@
-/Volumes/StorEDGE/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/platforms/android/ant-build/AndroidManifest.xml : \
-/Volumes/StorEDGE/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/platforms/android/AndroidManifest.xml \
+/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/platforms/android/ant-build/AndroidManifest.xml : \
+/Users/zixiao/Dropbox/Programs/Assassin/assassinsFrontend/platforms/android/AndroidManifest.xml \

@@ -1,64 +1,69 @@
-<!DOCTYPE>
+<!doctype>
 <html>
 <head>
-    <title>GAME STATS</title>
-      <link rel="stylesheet" href="css/theme.css">
+    <title>game stats</title>
+	
+	<link rel="stylesheet" href="css/theme.css">
     <script src="js/jquery-1.11.0.min.js"></script>
-    <script src="http://localhost:8888/target/target-script-min.js#anonymous"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" charset="utf-8" src="js/gameStatsScreen.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="js/jquery.countdown/jquery.countdown.css"> 
+	<script type="text/javascript" src="js/jquery.countdown/jquery.plugin.js"></script> 
+	<script type="text/javascript" src="js/jquery.countdown/jquery.countdown.js"></script>
+ 
+ 
 </head>
 <body>
-<div class="text label title">Game:</div>
-<div class="text headline" id="GameTitle"></div>
+<div class="text label title">Game Status</div>
+<div class="text headline" id="gametitle">
+</div>
 <br/> 
-
-<div id="game-status-alive">
-	<div class = "text label target">
-	    Your Target: <SPAN class="text headline" id="target"></SPAN> <br>
-	    Time Remaining: <SPAN class="text instructions" id="countdown-clock">00:01:14:04</SPAN>
-<!-- 	    <br/><br/>
-	    Remaining Players: <SPAN class="text headline" id="survivors"></SPAN> -->
-	</div>
-	<br/>
-	<div class="mascot">
-		<a  id="killer-mascot">
-	   		<img height="100" src="img/mascot.png">
-	   		<SPAN class="text label">Click Me to Verify Kill</SPAN>
-		</a>
-	</div>
-	<br />
+<div id="game-status-spinner">
+	<img height="80" src="img/loading.gif">
 </div>
-
-<div id="verify-kill">
-	<form id="verify-kill-form">
-		<div class="text label">Enter Kill Code <br/>(the code from your opponent)</div> 
-		<input id="killCode" class="text input" type="text" name="killCode"/>
-		<input type="submit" class="text submit" value="KILL" id="submitButton"/>
-	</form>
-</div>
-
-<div id="game-status-dead">
-	<div class = "text label target">
-		<SPAN class="text instructions">Don't know how to tell you this, but... </SPAN> <br />
-		<SPAN class="text headline">You're <b>dead</b>.</SPAN> <br />
-		<SPAN class="text instructions">No target for you.</SPAN>
+<div id="game-main-content">
+	<div id="game-status-alive">
+		<div class = "text label target">
+		    Your Target: <span class="text headline" id="target"></span> <br/>
+		    Time Remaining: <br/>
+		    <span id="countdown-clock"></span>
+		</div>
+		<br/>
+		<div class="mascot">
+			<a  id="killer-mascot">
+		   		<img height="100" src="img/mascot.png">
+		   		<span class="text label">Click Me to Verify Kill</span>
+			</a>
+		</div>
+		<br />
 	</div>
-	<div class="mascot"> <!-- Change this into the dead mascot -->   
+
+	<div id="verify-kill">
+		<form id="verify-kill-form">
+			<div class="text label">Enter Kill Code <br/>(the code from your victim)</div> 
+			<input id="killCode" class="text input" type="text" name="killcode"/>
+			<input type="submit" class="text submit" value="kill" id="submitbutton"/>
+		</form>
+	</div>
+
+	<div id="game-status-dead">
+		<div class = "text label target">
+			<span class="text instructions">don't know how to tell you this, but... </span> <br />
+			<span class="text headline">you're <b>dead</b>.</span> <br />
+			<span class="text instructions">no target for you.</span>
+		</div>
+		<div class="mascot"> <!-- change this into the dead mascot -->   
+		</div>
 	</div>
 </div>
-
-
-<!-- <div class = "pannel">
-    <a class = "game_link text box" href = "http://www.google.com/">Who is still alive?</a>
-</div> -->
 
 <div class="pannel">
 	<div class = "text box" id="kill-verification">
 		<a id="i-died">I've Been Killed</a>
 	</div>
 
-	<div id="display-kill-code" class="text label">Give Your Killer this Code: <SPAN class="text instructions" id="kill-code"></SPAN>
+	<div id="display-kill-code" class="text label">Give your killer this code: <span class="text instructions" id="kill-code"></span>
 	</div>
 
 	<br/>
