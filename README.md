@@ -4,17 +4,24 @@ Assassins FrontEnd README
 ## Assassins
 
 Assassins is a mobile app that allows users to organize, run, 
-and keep track of the game Assassins. We keeps track of things like who needs to kill whom, 
+and keep track of the [Assassin's Game](http://en.wikipedia.org/wiki/Assassin_(game)). We keeps track of things like who needs to kill whom, 
 who is still alive, and who wins.
 
 ## Architecture
 
-### Frontend 
+### Server Development
 
-This repository hosts the files for the frontend component of our app, which builds on 
+We have written our server code using Google App Engine and Flask, you need to 
+go to this repository to install, build and deploy the server:
+
+https://github.com/keeeeenw/AssassinServerAPI
+
+### Client Development
+
+This repository hosts the files for the Client component of our app, which builds on 
 top of PhoneGap framework.
 
-#### Cordova and PhoneGap
+### Cordova and PhoneGap
 
 Cordova is an open source framework that enables us to write our mobile app 
 using HTML, CSS, and JavaScript. PhoneGap builds on top of Cordova to 
@@ -41,7 +48,7 @@ Cordova utility.
 
 You can invoke `phonegap` command after install the utility.
 
-#### Buliding Assassin Front End
+### Before Building
 
 Before building the app, you need to clone this repo to your local machine:
 
@@ -49,10 +56,18 @@ Before building the app, you need to clone this repo to your local machine:
 
 You should be able to run `phonegap` command under `assassinsFrontend` directory.
 
+The `www` folder includes the HTML, CSS, JavaScript files for the front end app. The
+build program refer to theses files when building platform specific code. These files
+can be tested using a normal web browser before deploying them to devices.
+There are two JavaScript Libraries we are using: 
+[jQuery](http://jquery.com) and [jQuery Countdown](http://keith-wood.name/countdown.html).
+
 You need to point the app to your API server by changing the second line of 
 `www/js/main.js`:
 
 		window._app_base = "<YOUR-SERVER-API-PATH>";
+
+### Building PhoneGap
 
 To build PhoneGap for iOS or Android platform, run the following command:
 
@@ -66,7 +81,7 @@ iOS 7 features such as Status Bar. You open `platforms/ios/Assassins.xcodeproj` 
 Xcode to make any iOS platform specific changes according to your need. For Android
 plaftform, we did not include any platform specific tweak.
 
-#### Deploying Assassin Front End
+### Deploying PhoneGap
 
 To run the app, you need to run the following command for iOS or Android platform:
 
@@ -83,7 +98,7 @@ If have your phone connected to your computer with developor mode enabled, `run`
 deploys the app to your device. Notice that you need to enable USB Debugging on Android 
 before deploying the app. For iOS, it is more complicated. You need to have a paid
 developer account for on-device testing and set up your phone for development. If you have
-deployed app on your iOS devices before, `run` command should just work.
+deployed apps on your iOS devices before, `run` command should just work.
 
 
 
