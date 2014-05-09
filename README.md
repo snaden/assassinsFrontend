@@ -40,7 +40,7 @@ the app to a supported platform, you need to first install PhoneGap/Cordova util
 1. Download and install [Node.js](http://nodejs.org). We need `npm` command to install
 Cordova utility.
 
-2. Download and install [git client](http://git-scm.com)
+2. Download and install [git client](http://git-scm.com).
 
 3. Install `phonegap` using `npm` (You may need sudo on Unix system). 
 
@@ -90,11 +90,11 @@ To run the app, you need to run the following command for iOS or Android platfor
 
 By default `run` command automatically deploys the app to the simulator if you do not 
 have any device connected to your computer. You may be asked to install some dependent 
-package or specifying the path of your Android SDK. Alternatively, for iOS platform, 
-you can deploy the app using XCode by opening up the 
+packages or specify the path of your Android SDK. Alternatively, for iOS platform, 
+you can deploy the app using Xcode by opening up the 
 project file under `platforms/ios/Assassins.xcodeproj`.
 
-If have your phone connected to your computer with developor mode enabled, `run` command
+If have your development phone connected to your computer, `run` command
 deploys the app to your device. Notice that you need to enable USB Debugging on Android 
 before deploying the app. For iOS, it is more complicated. You need to have a paid
 developer account for on-device testing and set up your phone for development. If you have
