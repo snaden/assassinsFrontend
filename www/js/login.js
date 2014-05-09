@@ -45,8 +45,18 @@ $(document).ready(function() {
         event.preventDefault();
     });
 
-    $("#forgot_password_redirect").click(function alertMessage(){
-        _displayErrorMessage("This is a work in progress.","login-error-msg");
+    $("#new_user").click(function(){
+        console.log(document.getElementsByTagName('*').length);
+        var popup = document.createElement('div');
+        popup.className = 'text instructions';
+        var message = document.createElement('span');
+        message.innerHTML = "Please talk to a developer (snaden@macalester.edu, rgold@macalester.edu, zwang@macalester.edu, yli2@macalester.edu) about creating your own account.  In the meantime, feel free to use any of these username/password combos to check out the app:<br>u1/p1, u2/p2, ... u9/p9";
+        popup.appendChild(message);
+        if(document.getElementsByTagName('*').length<=21){
+            $("#new_user_div").append(popup);
+
+        }
+        
     });
 
 });

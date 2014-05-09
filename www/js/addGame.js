@@ -8,7 +8,6 @@ $(document).ready(function () {
 
     //Getting all the users
     var request_url = _app_base + "/api/users";
-
     $.getJSON(request_url, function (response) {
         var users = response;
         $.each(users, function () {
